@@ -1,0 +1,1641 @@
+#;voice command phrase;category;command segment
+;Appendices Weapon;
+1;Missile*;;with Missiles
+2;Maverick*;;with Missiles
+3;Pickle*;;with Unguided Bombs
+4;Bomb*;;with Unguided Bombs
+5;Stores*;;with Unguided Bombs
+6;Guided*;;with Guided Bombs
+7;GBU*;;with Guided Bombs
+8;Paveway*;;with Guided Bombs
+9;Rocket*;;with Rockets
+10;Dart*;;with Rockets
+11;Marker*;;with Markers
+12;Paint*;;with Markers
+13;Smoke*;;with Markers
+14;Gun*;;with Guns
+15;Strafe*;;with Guns
+16;Bullet*;;with Guns
+17;Bombe;;with Unguided Bombs
+18;Bombes guidées;;with Guided Bombs
+19;bombes guidees;;with Guided Bombs
+20;bombe guidee lasere;;with Guided Bombs
+21;canon;;with Guns
+22;guene;;with Guns
+23;fumee;;with Markers
+24;Markeur;;with Markers
+25;Mitraillez;;with Guns
+;Appendices Direction;
+26;*from the North;;from the North
+27;*from the NorthEast;;from the NorthEast
+28;*from the East;;from the East
+29;*from the SouthEast;;from the SouthEast
+30;*from the South;;from the South
+31;*from the SouthWest;;from the SouthWest
+32;*from the West;;from the West
+33;*from the NorthWest;;from the NorthWest
+34;du Nord;;from the North
+35;from ze Ist;;from the East
+36;from ze norse;;from the North
+37;from ze nor iste;;from the NorthEast
+38;depuis le nord est;;from the NorthEast
+39;from ze norwist;;from the NorthWest
+40;depuis le nord ouest;;from the NorthWest
+41;from ze sous;;from the South
+42;depuis le sud;;from the South
+43;from ze Saous Ist;;from the SouthEast
+44;depuis le sud est;;from the SouthEast
+45;from ze Saous ouest;;from the SouthWest
+46;depuis le sud ouest;;from the SouthWest
+47;from ze OUESTe;;from the West
+48;depuis l ouest;;from the West
+49;De lest;;from the East
+50;depuis lest;;from the East
+51;depuis le nord;;from the North
+;Cues;
+52;Engage;;Engage
+53;Attack;;Engage
+54;Strike;;Engage
+55;Weapons Free;;Engage
+56;Cleared Hot;;Engage
+57;tir libre;;Engage
+58;Attaquez;;Engage
+;Commands;
+59;My Target;Flight;Engage My Target
+60;My Contact;Flight;Engage My Target
+61;Bandit*;Flight;Engage Bandits
+62;Bogey*;Flight;Engage Bandits
+63;Outlaw*;Flight;Engage Bandits
+64;Hostile*;Flight;Engage Bandits
+65;Ground Target*;Flight;Engage Ground Targets
+66;Group;Flight;Engage Ground Targets
+67;Armor;Flight;Engage Armor
+68;Tanks;Flight;Engage Armor
+69;Movers;Flight;Engage Armor
+70;Column;Flight;Engage Armor
+71;Artillery;Flight;Engage Artillery
+72;Air Defense*;Flight;Engage Air Defenses
+73;AAA;Flight;Engage Air Defenses
+74;SAM*;Flight;Engage Air Defenses
+75;Utility*;Flight;Engage Utility Vehicles
+76;Vehicles;Flight;Engage Utility Vehicles
+77;Trucks;Flight;Engage Utility Vehicles
+78;Infantry;Flight;Engage Infantry
+79;Soldiers;Flight;Engage Infantry
+80;Troops;Flight;Engage Infantry
+81;Ship*;Flight;Engage Ships
+82;Vessel*;Flight;Engage Ships
+83;Skunk*;Flight;Engage Ships
+84;D-link Target;Flight;Engage Datalink Target
+85;D-link Targets;Flight;Engage Datalink Targets
+86;D-link Target by Type;Flight;Datalink Target by Type
+87;D-link Targets by Type;Flight;Datalink Targets by Type
+88;Complete and Rejoin;Flight;Complete and Rejoin
+89;Complete and RTB;Flight;Complete and RTB
+90;Ray Target;Flight;Ray Target
+91;My Enemy;Flight;Engage My Enemy
+92;Clear my Six;Flight;Engage My Enemy
+93;Cover Me;Flight;Cover Me
+94;Radio Check;Flight;Radio Check
+95;Heads Up;Flight;Radio Check
+96;Pincer Right;Flight;Pincer Right
+97;Pincer Left;Flight;Pincer Left
+98;Pincer High;Flight;Pincer High
+99;Pincer Low;Flight;Pincer Low
+100;Break Right;Flight;Break Right
+101;Break Left;Flight;Break Left
+102;Break High;Flight;Break High
+103;Break Low;Flight;Break Low
+104;Clear Right;Flight;Clear Right
+105;Clear Starboard;Flight;Clear Right
+106;Clear Left;Flight;Clear Left
+107;Clear Port;Flight;Clear Left
+108;Pump;Flight;Pump
+109;Anchor Here;Flight;Anchor Here
+110;Hold Position;Flight;Anchor Here
+111;Reference My Steerpoint;Flight;Anchor at Steerpoint
+112;Reference My Spee;Flight;Anchor at SPI
+113;Reference Point;Flight;Anchor at Point
+114;Return To Base;Flight;Return To Base
+115;Go Home;Flight;Return To Base
+116;RTB;Flight;Return To Base
+117;Go to Tanker;Flight;Fly to Tanker
+118;*Join*;Flight;Join Up
+119;Fly Route;Flight;Fly Route
+120;Continue;Flight;Fly Route
+121;Kick out to 1 mile;Flight;Make Recon 1 Mile
+122;Kick out to 2 miles;Flight;Make Recon 2 Miles
+123;Kick out to 3 miles;Flight;Make Recon 3 Miles
+124;Kick out to 5 miles;Flight;Make Recon 5 Miles
+125;Kick out to 8 miles;Flight;Make Recon 8 Miles
+126;Kick out to 10 miles;Flight;Make Recon 10 Miles
+127;Check my Spee;Flight;Make Recon at Point
+128;Radar On;Flight;Radar On
+129;Radar Off;Flight;Radar Off
+130;ECM On;Flight;ECM On
+131;Music On;Flight;ECM On
+132;ECM Off;Flight;ECM Off
+133;Music Off;Flight;ECM Off
+134;Smoke On;Flight;Smoke On
+135;Smoke Off;Flight;Smoke Off
+136;Jettison Stores;Flight;Jettison Weapons
+137;Fence In;Flight;Fence In
+138;Fence Out;Flight;Fence Out
+139;Out Cold;Flight;Out
+140;Go Line Abreast;Flight;Go Line Abreast
+141;Go Trail;Flight;Go Trail
+142;Go Wedge;Flight;Go Wedge
+143;Go Echelon Right;Flight;Go Echelon Right
+144;Go Starboard;Flight;Go Echelon Right
+145;Go Echelon Left;Flight;Go Echelon Left
+146;Go Port;Flight;Go Echelon Left
+147;Go Finger Four;Flight;Go Finger Four
+148;Go Spread Four;Flight;Go Spread Four
+149;Close Formation;Flight;Close Formation
+150;Close Up;Flight;Close Formation
+151;Move Closer;Flight;Close Formation
+152;Keep It Tight;Flight;Close Formation
+153;Open Formation;Flight;Open Formation
+154;Open Up;Flight;Open Formation
+155;Go Wide;Flight;Open Formation
+156;Spread Out;Flight;Open Formation
+157;Close Group;Flight;Close Group Formation
+158;Go Heavy;Flight;Helo Go Heavy
+159;Helos go Echelon;Flight;Helo Go Echelon
+160;Helos go Spread;Flight;Helo Go Spread
+161;Helos go Trail;Flight;Helo Go Trail
+162;Go Overwatch;Flight;Helo Go Overwatch
+163;Go Helo Left;Flight;Helo Go Left
+164;Go Helo Right;Flight;Helo Go Right
+165;Go Helo Tight;Flight;Helo Go Tight
+166;Go Cruise;Flight;Helo Go Cruise
+167;Go Combat;Flight;Helo Go Combat
+168;Request Engines Start;ATC;Request Engines Start
+169;Request Startup;ATC;Request Engines Start
+170;Request Hover;ATC;Request Hover
+171;Request Taxi to Runway;ATC;Request Taxi to Runway
+172;Request Takeoff;ATC;Request Takeoff
+173;Request Departure;ATC;Request Takeoff
+174;Ready for Takeoff;ATC;Request Takeoff
+175;Ready for Departure;ATC;Request Takeoff
+176;Abort Takeoff;ATC;Abort Takeoff
+177;Cancel Departure;ATC;Abort Takeoff
+178;Directions to Final;ATC;Request Azimuth
+179;Request Vector;ATC;Request Azimuth
+180;Inbound;ATC;Inbound
+181;Abort Inbound;ATC;Abort Inbound
+182;Cancel Approach;ATC;Abort Inbound
+183;Request Landing;ATC;Request Landing
+184;Request Taxi for Takeoff;ATC;Request Taxi for Takeoff
+185;Request Taxi to Parking;ATC;Request Taxi to Parking
+186;Tower Request Takeoff;ATC;Tower Request Takeoff
+187;Inbound Straight;ATC;Inbound Straight
+188;Overhead Approach;ATC;Approach Overhead
+189;Straight Approach;ATC;Approach Straight
+190;Instrument Approach;ATC;Approach Instrument
+191;Request Vector to Bullseye;AWACS;Vector to Bullseye
+192;Request Vector to Bandit;AWACS;Vector to Bandit
+193;*Bogey Dope;AWACS;Vector to Bandit
+194;Request Vector to Base;AWACS;Vector to Base
+195;*Directions to Base;AWACS;Vector to Base
+196;Request Vector to Tanker;AWACS;Vector to Tanker
+197;*Directions to Tanker;AWACS;Vector to Tanker
+198;Declare*;AWACS;Declare
+199;Request Picture;AWACS;Request Picture
+200;Approaching for Refuel;Tanker;Intent to Refuel
+201;Abort Refuel;Tanker;Abort Refuel
+202;Breakaway;Tanker;Abort Refuel
+203;Ready Precontact;Tanker;Ready Precontact
+204;Stop Refueling;Tanker;Stop Refueling
+205;*Playtime 5 minutes;JTAC;Check In 5 minutes
+206;*Playtime 10 minutes;JTAC;Check In 10 minutes
+207;*Playtime 15 minutes;JTAC;Check In 15 minutes
+208;*Playtime 20 minutes;JTAC;Check In 20 minutes
+209;*Playtime 25 minutes;JTAC;Check In 25 minutes
+210;*Playtime 30 minutes;JTAC;Check In 30 minutes
+211;*Playtime 35 minutes;JTAC;Check In 35 minutes
+212;*Playtime 40 minutes;JTAC;Check In 40 minutes
+213;*Playtime 45 minutes;JTAC;Check In 45 minutes
+214;*Playtime 50 minutes;JTAC;Check In 50 minutes
+215;*Playtime 55 minutes;JTAC;Check In 55 minutes
+216;*Playtime 60 minutes;JTAC;Check In 60 minutes
+217;Check Out;JTAC;Check Out
+218;Checking Out;JTAC;Check Out
+219;Game Over;JTAC;Check Out
+220;Ready to Copy;JTAC;Ready to Copy
+221;*Remarks;JTAC;Ready for Remarks
+222;Reading Back;JTAC;Nine-line Readback
+223;Copy Nine Line;JTAC;Nine-line Readback
+224;Request Tasking;JTAC;Request Tasking
+225;Ready for Tasking;JTAC;Request Tasking
+226;*New Target;JTAC;Request Tasking
+227;Request BDA;JTAC;Request BDA
+228;*Damage Report;JTAC;Request BDA
+229;What is my Target;JTAC;What is my Target
+230;Unable;JTAC;Unable to Comply
+231;*Showstopper;JTAC;Unable to Comply
+232;IP Inbound;JTAC;IP Inbound
+233;Copy Miss;JTAC;IP Inbound
+234;One Minute;JTAC;One Minute
+235;In Hot;JTAC;IN
+236;In from the North;JTAC;IN
+237;In from the NorthEast;JTAC;IN
+238;In from the East;JTAC;IN
+239;In from the SouthEast;JTAC;IN
+240;In from the South;JTAC;IN
+241;In from the SouthWest;JTAC;IN
+242;In from the West;JTAC;IN
+243;In from the NorthWest;JTAC;IN
+244;Exit Area;JTAC;OFF
+245;Copy Kill;JTAC;Attack Complete
+246;Attack Complete;JTAC;Attack Complete
+247;Advise Ready for BDA;JTAC;Advise Ready for BDA
+248;Contact;JTAC;Contact
+249;Target Visual;JTAC;Contact
+250;No Joy;JTAC;No Joy
+251;Contact the Mark;JTAC;Contact the Mark
+252;Tally Mark;JTAC;Contact the Mark
+253;Tally Smoke;JTAC;Contact the Mark
+254;Tracking Smoke;JTAC;Contact the Mark
+255;Sparkle;JTAC;Sparkle
+256;Snake;JTAC;Snake
+257;Pulse;JTAC;Pulse
+258;Steady;JTAC;Steady
+259;Rope;JTAC;Rope
+260;Contact Sparkle;JTAC;Contact Sparkle
+261;Tally Sparkle;JTAC;Contact Sparkle
+262;Tracking Sparkle;JTAC;Contact Sparkle
+263;Stop;JTAC;Stop
+264;Ten Seconds;JTAC;Ten Seconds
+265;Laser On;JTAC;Laser On
+266;Shift Beam;JTAC;Shift
+267;Spot;JTAC;Spot
+268;Tally Ray;JTAC;Spot
+269;Tally Beam;JTAC;Spot
+270;Tracking Beam;JTAC;Spot
+271;Terminate;JTAC;Terminate
+272;Guns Guns Guns;JTAC;Guns!Guns!Guns!
+273;Bombs Away;JTAC;Bombs Away!
+274;Rifle;JTAC;Rifle!
+275;Rockets;JTAC;Rockets!
+276;Standby for BDA;JTAC;BDA
+277;Standby for Report;JTAC;In-flight Rep
+278;Request Refuel*;Crew;Request Refueling
+279;Load Cannon;Crew;Request Cannon Reload
+280;Request Rearming;Crew;Request Rearming
+281;Apply Air;Crew;Apply Air
+282;Request Repair;Crew;Request Repair
+283;Stow the Boarding Ladder;Crew;Stow Boarding Ladder
+284;Run Inertial Starter;Crew;Run Inertial Starter
+285;Request HMD;Crew;Request HMD
+286;Request NVG;Crew;Request NVG
+287;Turbo On;Crew;Turbo On
+288;Turbo Off;Crew;Turbo Off
+289;Ground Power On;Crew;Ground Power On
+290;Ground Power Off;Crew;Ground Power Off
+291;Place the Wheelchocks;Crew;Wheelchocks Place
+292;Remove the Wheelchocks;Crew;Wheelchocks Remove
+293;Open the Canopy;Crew;Canopy Open
+294;Close the Canopy;Crew;Canopy Close
+295;Connect Air Supply;Crew;Connect Air Supply
+296;Disconnect Air Supply;Crew;Disconnect Air Supply
+297;Inbound for Carrier;ATC;Inbound for Carrier
+298;Marking Moms;ATC;Inbound for Carrier
+299;See You At Ten;ATC;See You At Ten
+300;Tower Overhead;ATC;Overhead
+301;Overhead;ATC;Overhead
+302;Flight Kiss Off;ATC;Flight Kiss Off
+303;Kiss Off;ATC;Flight Kiss Off
+304;Hornet Ball;ATC;Call Ball
+305;Tomcat Ball;ATC;Call Ball
+306;Hawkeye Ball;ATC;Call Ball
+307;Viking Ball;ATC;Call Ball
+308;Phantom Ball;ATC;Call Ball
+309;Greyhound Ball;ATC;Call Ball
+310;Intruder Ball;ATC;Call Ball
+311;Lightning Ball;ATC;Call Ball
+312;Prowler Ball;ATC;Call Ball
+313;Skyhawk Ball;ATC;Call Ball
+314;Ball;ATC;Call Ball
+315;Clara;ATC;Clara
+316;Confirm;ATC;Confirm
+317;Confirm Remaining Fuel;ATC;Confirm Remaining Fuel
+318;Low State;ATC;Confirm Remaining Fuel
+319;Inbound Marshall Respond;ATC;Inbound Marshall Response
+320;Expect On Time;ATC;Inbound Marshall Response
+321;Established;ATC;Established
+322;Commencing;ATC;Commencing
+323;Checking In;ATC;Approach Check In
+324;Approach Check In;ATC;Approach Check In
+325;Platform;ATC;Platform
+326;Say Needle;ATC;Say Needles
+327;Needles;ATC;Say Needles
+328;Meatball;ATC;Reference Ball
+329;Salute;Crew;Salute
+330;Request Launch;Crew;Request Catapult Launch
+331;Airborne;ATC;Airborne
+332;Passing 2 5 Kilo;ATC;Passing 2 5 Kilo
+333;Roger;Undefined;Roger
+334;Copy;Undefined;Copy
+335;Affirm;Undefined;Affirm
+336;Wilco;Undefined;Wilco
+337;Negative;Undefined;Negative
+338;Repeat;Undefined;Repeat
+339;Say Again;Undefined;Repeat
+340;Take 1;Undefined;Menu Item 1
+341;Take 2;Undefined;Menu Item 2
+342;Take 3;Undefined;Menu Item 3
+343;Take 4;Undefined;Menu Item 4
+344;Take 5;Undefined;Menu Item 5
+345;Take 6;Undefined;Menu Item 6
+346;Take 7;Undefined;Menu Item 7
+347;Take 8;Undefined;Menu Item 8
+348;Take 9;Undefined;Menu Item 9
+349;Take 10;Undefined;Menu Item 10
+350;Take 11;Undefined;Menu Item 11
+351;Take 12;Undefined;Menu Item 12
+352;Switch*;Undefined;Switch to VoIP
+353;Select;Undefined;Select Recipient
+354;Options;Undefined;Show Options
+355;Interrogate;AOCS;Check Unit
+356;Status;AOCS;Check Unit
+357;Briefing;AOCS;Read Mission Briefing
+358;Show Notes;Kneeboard;Flip to Notes tab
+359;Clear Notes;Kneeboard;Dictation Clear Notes
+360;Start Dictate;Kneeboard;Dictation Start
+361;End Dictate;Kneeboard;Dictation Stop
+362;Correction;Kneeboard;Dictation Correction
+363;Show Log;Kneeboard;Flip to LOG/ATO tab
+364;Show Tasking Order;Kneeboard;Flip to LOG/ATO tab
+365;Page;Undefined;Show kneeboard tab
+366;Open Canopy;RIO;RIO Open Canopy
+367;Close Canopy;RIO;RIO Close Canopy
+368;Don't Auto Designate;RIO;Inhibit Auto Designate
+369;Designate;RIO;LANTIRN Designate
+370;Black Hot;RIO;Black White Hot Toggle
+371;White Hot;RIO;Black White Hot Toggle
+372;Latch Laser;RIO;Laser Latch
+373;Arm Laser;RIO;Laser Arm
+374;Toggle Laser;RIO;Laser Toggle
+375;Undesignate;RIO;LANTIRN Undesignate
+376;Track Boresight;RIO;LANTIRN QHUD QADL
+377;Snow Plow;RIO;LANTIRN QSNO
+378;Track Designation;RIO;LANTIRN QDES
+379;Previous Target;RIO;LANTIRN Previous Target
+380;Next Target;RIO;LANTIRN Next Target
+381;Go Active;RIO;Switch Radar Transmit
+382;Go Standby;RIO;Switch Radar Standby
+383;Break Lock;RIO;Break Lock
+384;Switch STT;RIO;Toggle PDSTT/PSTT
+385;VSL High;RIO;VSL High
+386;VSL Low;RIO;VSL Low
+387;Track Single;RIO;STT Lock
+388;Track Single Contact Ahead;RIO;STT Lock Contact Ahead
+389;Track Single Bogey Ahead;RIO;STT Lock Bogey Ahead
+390;Track Single Friendly Ahead;RIO;STT Lock Friendly Ahead
+391;Track Single First;RIO;STT Lock First
+392;Track Single Target 1;RIO;STT Lock Target #1
+393;Track Single Target 2;RIO;STT Lock Target #2
+394;Track Single Target 3;RIO;STT Lock Target #3
+395;Track Single Target 4;RIO;STT Lock Target #4
+396;Track Single Target 5;RIO;STT Lock Target #5
+397;Track Single Target 6;RIO;STT Lock Target #6
+398;Track Single Target 7;RIO;STT Lock Target #7
+399;Track Single Target 8;RIO;STT Lock Target #8
+400;Scan Range;RIO;Scan Range
+401;Scan Range Auto;RIO;Scan Range Automatic
+402;Scan Range 25;RIO;Scan Range 25
+403;Scan Range 50;RIO;Scan Range 50
+404;Scan Range 100;RIO;Scan Range 100
+405;Scan Range 200;RIO;Scan Range 200
+406;Scan Range 400;RIO;Scan Range 400
+407;Scan Azimuth;RIO;Scan Azimuth
+408;Scan Azimuth Auto;RIO;Scan Azimuth Automatic
+409;Scan Center;RIO;Scan Azimuth Center
+410;Scan Center Left;RIO;Scan Azimuth Center Left
+411;Scan Center Right;RIO;Scan Azimuth Center Right
+412;Scan Left;RIO;Scan Azimuth Left
+413;Scan Right;RIO;Scan Azimuth Right
+414;Scan Elevation;RIO;Scan Elevation
+415;Scan Elevation Auto;RIO;Scan Elevation Automatic
+416;Scan High;RIO;Scan Elevation High
+417;Scan Low;RIO;Scan Elevation Low
+418;Scan Level;RIO;Scan Elevation Level
+419;Scan Level High;RIO;Scan Elevation Level High
+420;Scan Level Low;RIO;Scan Elevation Level Low
+421;Radar Mode Automatic;RIO;Radar Mode Automatic
+422;Radar Mode TWS;RIO;Radar Mode TWS
+423;Radar Mode RWS;RIO;Radar Mode RWS
+424;Radar Mode;RIO;Radar Mode
+425;Stabilize;RIO;Radar Stabilize
+426;Stabilize 15 Seconds;RIO;Radar Stabilize 15s
+427;Stabilize 30 Seconds;RIO;Radar Stabilize 30s
+428;Stabilize 1 Minute;RIO;Radar Stabilize 60s
+429;Stabilize 2 Minutes;RIO;Radar Stabilize 120s
+430;Stabilize Hold;RIO;Radar Stabilize Indefinitely
+431;Area Track;RIO;LANTIRN Stabilize
+432;Eyeballs;RIO;LANTIRN Control Eyeballs
+433;Head Control;RIO;LANTIRN Control Head
+434;Radar Mode TWS Manual;RIO;TWS Mode Manual
+435;Look For A regular Target;RIO;Target Size Normal
+436;Look For A Big Target;RIO;Target Size Large
+437;Look For A Small Target;RIO;Target Size Small
+438;Select Stores;RIO;AG Select Stores
+439;Select Zunis;RIO;AG Select Zunis
+440;Select Mark Eightyfours;RIO;AG Select Mk84s
+441;Select Mark Eightythrees;RIO;AG Select Mk83s
+442;Select Mark Eightytwos;RIO;AG Select Mk82s
+443;Select Mark Eightyones;RIO;AG Select Mk81s
+444;Select Rockeyes;RIO;AG Select Mk20s
+445;Select Lose;RIO;AG Select LUUs
+446;Select Paveways;RIO;AG Select GBUs
+447;Select Bee Dee Yous;RIO;AG Select BDUs
+448;Select TALD;RIO;AG Select TALD
+449;Attack Mode Target;RIO;AG Attack Mode Target
+450;Attack Mode Pilot;RIO;AG Attack Mode Pilot
+451;Set Release Single;RIO;Set Release Single
+452;Set Release Pairs;RIO;Set Release Pairs
+453;Set Fuse;RIO;Set Fuse
+454;Set Fuse Nose Tail;RIO;Set Fuse Nose Tail
+455;Set Fuse Nose;RIO;Set Fuse Nose
+456;Set Fuse Safe;RIO;Set Fuse Safe
+457;Set Ripple Quantity;RIO;Set Ripple Quantity
+458;Set Ripple Quantity 2;RIO;Set Ripple Quantity 2
+459;Set Ripple Quantity 3;RIO;Set Ripple Quantity 3
+460;Set Ripple Quantity 4;RIO;Set Ripple Quantity 4
+461;Set Ripple Quantity 6;RIO;Set Ripple Quantity 6
+462;Set Ripple Quantity 8;RIO;Set Ripple Quantity 8
+463;Set Ripple Time;RIO;Set Ripple Time
+464;Set Ripple Time Step;RIO;Set Ripple Time Step
+465;Set Ripple Time 10;RIO;Set Ripple Time 10
+466;Set Ripple Time 20;RIO;Set Ripple Time 20
+467;Set Ripple Time 50;RIO;Set Ripple Time 50
+468;Set Ripple Time 100;RIO;Set Ripple Time 100
+469;Set Ripple Time 200;RIO;Set Ripple Time 200
+470;Set Ripple Time 500;RIO;Set Ripple Time 500
+471;Set Ripple Time 990;RIO;Set Ripple Time 990
+472;Set Ripple Distance;RIO;Set Ripple Distance
+473;Set Ripple Distance Step;RIO;Set Ripple Distance Step
+474;Set Ripple Distance 5;RIO;Set Ripple Distance 5
+475;Set Ripple Distance 10;RIO;Set Ripple Distance 10
+476;Set Ripple Distance 25;RIO;Set Ripple Distance 25
+477;Set Ripple Distance 50;RIO;Set Ripple Distance 50
+478;Set Ripple Distance 100;RIO;Set Ripple Distance 100
+479;Set Ripple Distance 200;RIO;Set Ripple Distance 200
+480;Set Ripple Distance 400;RIO;Set Ripple Distance 400
+481;Drop Weapons;RIO;Jettison Selected
+482;Drop Tanks;RIO;Jettison Drop Tanks
+483;Switch Lantern;RIO;Switch LANTIRN
+484;Select Stations;RIO;Select Stations
+485;Select Stations 1 8;RIO;Select Stations 1,8
+486;Select Stations 2 7;RIO;Select Stations 2,7
+487;Select Stations 3 4 5 6;RIO;Select Stations 3,4,5,6
+488;Select Stations 3 6;RIO;Select Stations 3,6
+489;Select Stations 4 5;RIO;Select Stations 4,5
+490;Set Ripple Quantity 16;RIO;Set Ripple Quantity 16
+491;Set Ripple Quantity 28;RIO;Set Ripple Quantity 28
+492;Radio Use Guard;RIO;AN/ARC-182 Use Guard
+493;Link Mode;RIO;Datalink Mode
+494;Link Preset;RIO;Datalink Preset
+495;Link Host;RIO;Datalink Set Host
+496;Link Mode Tactical;RIO;Datalink Tactical
+497;Link Mode Off;RIO;Datalink Off
+498;Link Mode Fighter;RIO;Datalink Fighter
+499;Link Host Stennis;RIO;DL Host Stennis
+500;Link Host Darkstar;RIO;DL Host Darkstar
+501;Link Host Focus;RIO;DL Host Focus
+502;Link Host Magic;RIO;DL Host Magic
+503;Link Host Overlord;RIO;DL Host Overlord
+504;Link Host Wizard;RIO;DL Host Wizard
+505;Link Decimal 0;RIO;DL Preset 300.00 Mhz
+506;Link Decimal 10;RIO;DL Preset 300.10 Mhz
+507;Link Decimal 20;RIO;DL Preset 300.20 Mhz
+508;Link Decimal 30;RIO;DL Preset 300.30 Mhz
+509;Link Decimal 40;RIO;DL Preset 300.40 Mhz
+510;Link Decimal 50;RIO;DL Preset 300.50 Mhz
+511;Link Decimal 60;RIO;DL Preset 300.60 Mhz
+512;Link Decimal 70;RIO;DL Preset 300.70 Mhz
+513;TACAN Mode;RIO;TACAN Mode
+514;TACAN Mode Off;RIO;TACAN Mode Off
+515;TACAN Mode Rec;RIO;TACAN Mode REC
+516;TACAN Mode Transmit;RIO;TACAN Mode TR
+517;TACAN Mode AA;RIO;TACAN Mode AA
+518;TACAN Mode Beacon;RIO;TACAN Mode BCN
+519;TACAN Select Channel;RIO;TACAN Select Channel
+520;TACAN Ground Station;RIO;TACAN Ground Station
+521;TACAN Tune;RIO;TACAN Tune TAC
+522;TACAN Tune Stennis;RIO;TACAN Tune Stennis
+523;TACAN Tune Arco;RIO;TACAN Tune Arco
+524;TACAN Tune Shell;RIO;TACAN Tune Shell
+525;TACAN Tune Texaco;RIO;TACAN Tune Texaco
+526;TACAN Tango Sierra Kilo;RIO;TACAN Tune TSK (31X)
+527;TACAN Kilo Bravo Lima;RIO;TACAN Tune KBL (67X)
+528;TACAN Bravo Tango Mike;RIO;TACAN Tune BTM (16X)
+529;TACAN Kilo Tango Sierra;RIO;TACAN Tune KTS (44X)
+530;TACAN Golf Tango Bravo;RIO;TACAN Tune GTB (25X)
+531;TACAN Victor Alfa Sierra;RIO;TACAN Tune VAS (22X)
+532;TACAN Lima Sierra Victor;RIO;TACAN Tune LSV (12X)
+533;TACAN Lima Alfa Sierra;RIO;TACAN Tune LAS (116X)
+534;TACAN Bravo Lima Delta;RIO;TACAN Tune BLD (114X)
+535;TACAN India November Sierra;RIO;TACAN Tune INS (87X)
+536;TACAN Mike Mike Mike;RIO;TACAN Tune MMM (90X)
+537;TACAN Golf Foxtrot Sierra;RIO;TACAN Tune GFS (91X)
+538;TACAN Golf Romeo Lima;RIO;TACAN Tune GRL (18X)
+539;TACAN Papa Golf Sierra;RIO;TACAN Tune PGS (57X)
+540;TACAN Bravo Tango Yankee;RIO;TACAN Tune BTY (94X)
+541;TACAN Echo Echo Delta;RIO;TACAN Tune EED (99X)
+542;TACAN Delta Alfa Golf;RIO;TACAN Tune DAG (79X)
+543;TACAN Hotel Echo Charlie;RIO;TACAN Tune HEC (74X)
+544;TACAN Oscar Alfa Lima;RIO;TACAN Tune OAL (124X)
+545;TACAN Bravo India Hotel;RIO;TACAN Tune BIH (33X)
+546;TACAN Mike Victor Alfa;RIO;TACAN Tune MVA (98X)
+547;TACAN Kilo Charlie Kilo;RIO;TACAN Tune KCK (89X)
+548;TACAN Kilo Sierra Bravo;RIO;TACAN Tune KSB (84X)
+549;TACAN Hotel Delta Romeo;RIO;TACAN Tune HDR (47X)
+550;TACAN Mike Alfa;RIO;TACAN Tune MA (96X)
+551;TACAN Sierra Yankee Zulu;RIO;TACAN Tune SYZI (94X)
+552;Radio Mode TR;RIO;AN/ARC-182 Mode TR
+553;Radio Mode TRG;RIO;AN/ARC-182 Mode TRG
+554;Radio Mode DF;RIO;AN/ARC-182 Mode DF
+555;Radio Mode Test;RIO;AN/ARC-182 Mode Test
+556;Radio Mode AM;RIO;AN/ARC-182 Mode AM
+557;Radio Mode FM;RIO;AN/ARC-182 Mode FM
+558;Radio Mode;RIO;AN/ARC-182 Mode 
+559;Radio Mode Off;RIO;AN/ARC-182 Mode Off
+560;Navigate;RIO;Navigate Steerpoint
+561;Navigate Steerpoint 1;RIO;Navigate Steerpoint 1
+562;Navigate Steerpoint 2;RIO;Navigate Steerpoint 2
+563;Navigate Steerpoint 3;RIO;Navigate Steerpoint 3
+564;Navigate Fixed Point;RIO;Navigate Fixed Point
+565;Navigate Initial Point;RIO;Navigate Initial Point
+566;Navigate Target;RIO;Navigate Surface Target
+567;Navigate Home Base;RIO;Navigate Home Base
+568;Restore;RIO;Restore
+569;Restore Steerpoint 1;RIO;Restore Steerpoint 1
+570;Restore Steerpoint 2;RIO;Restore Steerpoint 2
+571;Restore Steerpoint 3;RIO;Restore Steerpoint 3
+572;Restore Initial Point;RIO;Restore Initial Point
+573;Restore Fixed Point;RIO;Restore Fixed Point
+574;Restore Target;RIO;Restore Target
+575;Restore Home Base;RIO;Restore Home Base
+576;Restore Defense Point;RIO;Restore Defense Point
+577;Restore Hostile Zone;RIO;Restore Hostile Zone
+578;Keep it quiet back there;RIO;No Talking
+579;You can talk again;RIO;Talking Allowed
+580;Set Eject for Both;RIO;Ejection handle both
+581;Set Eject for Single;RIO;Ejection handle RIO only
+582;OK for landing calls;RIO;Landing callouts allowed
+583;No landing calls;RIO;No landing callouts
+584;Back to work;RIO;Jester resume
+585;Knock it off;RIO;Jester suspend
+586;Wake Up;RIO;Reset
+587;Link Host Washington;RIO;DL Host Washington
+588;Link Host Roosevelt;RIO;DL Host Roosevelt
+589;Link Host Lincoln;RIO;DL Host Lincoln
+590;Link Host Truman;RIO;DL Host Truman
+591;Link Host Ticonderoga;RIO;DL Host Ticonderoga
+592;TACAN Tune Washington;RIO;TACAN Tune Washington
+593;TACAN Tune Roosevelt;RIO;TACAN Tune Roosevelt
+594;TACAN Tune Lincoln;RIO;TACAN Tune Lincoln
+595;TACAN Tune Truman;RIO;TACAN Tune Truman
+596;Cherche sam;RIO;LANTIRN Search SAMs
+597;Track Steerpoint 2;RIO;LANTIRN Track Steerpoint 2
+598;Track Steerpoint 3;RIO;LANTIRN Track Steerpoint 3
+599;Track Fixed Point;RIO;LANTIRN Track FP
+600;Track IP;RIO;LANTIRN Track IP
+601;Track Surface Target;RIO;LANTIRN Track ST
+602;Track Home Base;RIO;LANTIRN Track HB
+603;Track Defense Point;RIO;LANTIRN Track DP
+604;Reset Lantern;RIO;LANTIRN Reset
+605;Toggle View;RIO;LANTIRN Toggle FOV
+606;Grid Enable;RIO;Enable NAVGRID
+607;Grid Disable;RIO;Disable NAVGRID
+608;Grid Center;RIO;Grid Center Aircraft
+609;Grid Relative 180;RIO;Grid Relative 180
+610;Grid Relative Plus 30;RIO;Grid Relative +30
+611;Grid Relative Plus 90;RIO;Grid Relative +90
+612;Grid Relative Plus 120;RIO;Grid Relative +120
+613;Grid Relative Minus 120;RIO;Grid Relative -120
+614;Grid Relative Minus 90;RIO;Grid Relative -90
+615;Grid Relative Minus 30;RIO;Grid Relative -30
+616;Grid Absolute 0;RIO;Grid Absolute 0
+617;Grid Absolute 45;RIO;Grid Absolute 45
+618;Grid Absolute 90;RIO;Grid Absolute 90
+619;Grid Absolute 135;RIO;Grid Absolute 135
+620;Grid Absolute 180;RIO;Grid Absolute 180
+621;Grid Absolute 225;RIO;Grid Absolute 225
+622;Grid Absolute 270;RIO;Grid Absolute 270
+623;Grid Absolute 315;RIO;Grid Absolute 315
+624;Grid Coverage 30;RIO;Grid Coverage 30
+625;Grid Coverage 60;RIO;Grid Coverage 60
+626;Grid Coverage 90;RIO;Grid Coverage 90
+627;Grid Coverage 120;RIO;Grid Coverage 120
+628;Grid Coverage 180;RIO;Grid Coverage 180
+629;Grid 1 Sector;RIO;Grid 1 Sector
+630;Grid 2 Sectors;RIO;Grid 2 Sectors
+631;Grid 3 Sectors;RIO;Grid 3 Sectors
+632;Grid 4 Sectors;RIO;Grid 4 Sectors
+633;Grid 5 Sectors;RIO;Grid 5 Sectors
+634;Grid 6 Sectors;RIO;Grid 6 Sectors
+635;Rock and Roll;RIO;Play the Walkman
+636;Cut it out;RIO;Stop the Walkman
+637;Skip this part;RIO;Fast Forward
+638;Go back a little;RIO;Rewind
+639;Countermeasures Mode;RIO;CMS Mode
+640;Countermeasures Off;RIO;CMS Mode Off
+641;Countermeasures Manual;RIO;CMS Mode Manual
+642;Countermeasures Auto;RIO;CMS Mode Auto
+643;Flares Mode;RIO;Flares Mode
+644;Flares Mode Pilot;RIO;Flares Mode to Pilot
+645;Flares Mode Normal;RIO;Flares Mode to Normal
+646;Flares Mode Multi;RIO;Flares Mode to Multi
+647;Chaff Program;RIO;Chaff Program
+648;Chaff Program 1;RIO;Chaff Program 1 (RR 12)
+649;Chaff Program 2;RIO;Chaff Program 2 (RR 46)
+650;Chaff Program 3;RIO;Chaff Program 3 (RR 86)
+651;Chaff Program 4;RIO;Chaff Program 4 (20 44)
+652;Chaff Program 5;RIO;Chaff Program 5 (20 84)
+653;Chaff Program 6;RIO;Chaff Program 6 (40 44)
+654;Chaff Program 7;RIO;Chaff Program 7 (40 84)
+655;Chaff Program 8;RIO;Chaff Program 8 (R1 12)
+656;Display;RIO;RWR Display Type
+657;Display Airborne;RIO;RWR Mode Airborne
+658;Display Normal;RIO;RWR Mode Normal
+659;Display AAA;RIO;RWR Mode AAA
+660;Display Unknown;RIO;RWR Mode Unknown
+661;Display Friendly;RIO;RWR Mode Friendly
+662;Jammer On;RIO;Jammer On
+663;Jammer Standby;RIO;Jammer Standby
+664;Dispense Order;RIO;Dispense Order
+665;Dispense Order Chaff Program;RIO;Disp Order Chaff Program
+666;Dispense Order Chaff Single;RIO;Disp Order Chaff Single
+667;Dispense Order Chaff Tight;RIO;Disp Order Chaff Tight
+668;Dispense Order Flare Program;RIO;Disp Order Flare Program
+669;Dispense Order Flare Single;RIO;Disp Order Flare Single
+670;Dispense Order Flare Tight;RIO;Disp Order Flare Tight
+671;Flares Program;RIO;Flares Program
+672;Flares Program 2 by 2;RIO;Flares Program (2x2sec)
+673;Flares Program 4 by 2;RIO;Flares Program (4x2sec)
+674;Flares Program 10 by 2;RIO;Flares Program (10x2sec)
+675;Flares Program 4 by 6;RIO;Flares Program (4x6sec)
+676;Flares Program 8 by 6;RIO;Flares Program (8x6sec)
+677;Flares Program 10 by 6;RIO;Flares Program (10x6sec)
+678;Flares Program 6 by 10;RIO;Flares Program (6x10sec)
+679;Flares Program 10 by 10;RIO;Flares Program (10x10sec)
+680;Look for Ground Targets;RIO;LANTIRN Search All
+681;Look for Activity;RIO;LANTIRN Search Active
+682;Look for Bogeys;RIO;LANTIRN Search Bogeys
+683;Look for Active Bogeys;RIO;LANTIRN Search Active Bogeys
+684;Look for SAMs;RIO;LANTIRN Search SAMs
+685;Look for Tanks;RIO;LANTIRN Search Armor
+686;Look for Movers;RIO;LANTIRN Search Vehicles
+687;Look for Ships;RIO;LANTIRN Search Ships
+688;Abort Startup;RIO;Cancel Procedure
+689;Align Fine;RIO;INS Alignment Fine
+690;Align Minimum;RIO;INS Alignment Minimum
+691;Align Coarse;RIO;INS Alignment Coarse
+692;Align Now;RIO;INS Alignment Now
+693;Check;RIO;Confirm Checkpoint
+694;Loud and Clear;RIO;Confirm ICS test
+695;Startup;RIO;Perform Start Procedure
+696;Assisted Startup;RIO;Assisted Start Procedure
+697;Set Altitude;Iceman;Go Altitude
+698;Go Angels 1;Iceman;Go Altitude 1.000ft
+699;Go Angels 5;Iceman;Go Altitude 5.000ft
+700;Go Angels 10;Iceman;Go Altitude 10.000ft
+701;Go Angels 15;Iceman;Go Altitude 15.000ft
+702;Go Angels 20;Iceman;Go Altitude 20.000ft
+703;Go Angels 25;Iceman;Go Altitude 25.000ft
+704;Go Angels 30;Iceman;Go Altitude 30.000ft
+705;Go Angels 35;Iceman;Go Altitude 35.000ft
+706;Change Altitude;Iceman;Change Altitude
+707;Descent 10000;Iceman;Descent 10000
+708;Descent 5000;Iceman;Descent 5000
+709;Descent 1000;Iceman;Descent 1000
+710;Descent 500;Iceman;Descent 500
+711;Climb 500;Iceman;Climb 500
+712;Climb 1000;Iceman;Climb 1000
+713;Climb 5000;Iceman;Climb 5000
+714;Climb 10000;Iceman;Climb 10000
+715;Slow Down 200;Iceman;Decelerate 200kts
+716;Slow Down 100;Iceman;Decelerate 100kts
+717;Slow Down 50;Iceman;Decelerate 50kts
+718;Speed Up 50;Iceman;Accelerate 50kts
+719;Speed Up 100;Iceman;Accelerate 100kts
+720;Speed Up 200;Iceman;Accelerate 200kts
+721;Head Straight;Iceman;Maintain Course
+722;Heading North;Iceman;Head North
+723;Heading NorthEast;Iceman;Head NorthEast
+724;Heading East;Iceman;Head East
+725;Heading SouthEast;Iceman;Head SouthEast
+726;Heading South;Iceman;Head South
+727;Heading SouthWest;Iceman;Head SouthWest
+728;Heading West;Iceman;Head West
+729;Heading NorthWest;Iceman;Head NorthWest
+730;Set Heading;Iceman;Set Heading
+731;Turn;Iceman;Change Direction
+732;Turn Left 45;Iceman;Turn Left 45
+733;Turn Left 30;Iceman;Turn Left 30
+734;Turn Left 10;Iceman;Turn Left 10
+735;Turn Left 5;Iceman;Turn Left 5
+736;Turn Right 5;Iceman;Turn Right 5
+737;Turn Right 10;Iceman;Turn Right 10
+738;Turn Right 30;Iceman;Turn Right 30
+739;Turn Right 45;Iceman;Turn Right 45
+740;Change Speed;Iceman;Change Speed
+741;Fly to Destination;Iceman;Fly to Destination
+742;Orbit Destination;Iceman;Orbit Destination
+743;Artillerie;Flight;Engage Artillery
+744;Temps sur zone 10 minutes;JTAC;Check In 10 minutes
+745;Infanterie;Flight;Engage Infantry
+746;pret pour BDA;JTAC;Advise Ready for BDA
+747;Engagez l infanterie;Flight;Engage Infantry
+748;Ecartez la Formation;Flight;Open Formation
+749;affirmatif;Undefined;Affirm
+750;temps sur zone 25 minutes;JTAC;Check In 25 minutes
+751;En Approche pour ravitailler;Tanker;Intent to Refuel
+752;Ouvrez la verrière;Crew;Canopy Open
+753;Larguez les bidons;Flight;Jettison Weapons
+754;Direction vers le Tanker;AWACS;Vector to Tanker
+755;Demande direction vers Bandit;AWACS;Vector to Bandit
+756;Temps sur zone 5 minutes;JTAC;Check In 5 minutes
+757;En reco sur 3 miles;Flight;Make Recon 3 Miles
+758;demande de cible;JTAC;Request Tasking
+759;Direction vers le final;ATC;Request Azimuth
+760;Engagez les cibles au sol;Flight;Engage Ground Targets
+761;Prêt à copier;JTAC;Ready to Copy
+762;Engagez Blindé;Flight;Engage Armor
+763;dix Seconds;JTAC;Ten Seconds
+764;En approche de l IP;JTAC;IP Inbound
+765;Eteignez le Radar;Flight;Radar Off
+766;Demande autorisation de décoller;ATC;Request Takeoff
+767;En approche aux instruments;ATC;Approach Instrument
+768;Reserré le groupe;Flight;Close Group Formation
+769;Contacte visuel;JTAC;Contact
+770;Radio tChéck;Flight;Radio Check
+771;Ravitaillement Annulé;Tanker;Abort Refuel
+772;panier de contre mesure chaff unique;RIO;Disp Order Chaff Single
+773;Demande ravitaillement;Crew;Request Refueling
+774;Fermez la verrière;Crew;Canopy Close
+775;Continuez le vol;Flight;Fly Route
+776;Engagez les bateaux;Flight;Engage Ships
+777;data link frequence Darkstar;RIO;DL Host Darkstar
+778;Temps sur zone 55 minutes;JTAC;Check In 55 minutes
+779;En reco sur 1 mile;Flight;Make Recon 1 Mile
+780;delivrance sur C C I P;RIO;AG Attack Mode Pilot
+781;Direction vers la nounou;AWACS;Vector to Tanker
+782;temps sur zone 45 minutes;JTAC;Check In 45 minutes
+783;accroche cible 2;RIO;STT Lock Target #2
+784;Feince AOut;Flight;Fence Out
+785;vecteur vers le tankeur;AWACS;Vector to Tanker
+786;Ine Hotte;JTAC;IN
+787;Eteignez ECM;Flight;ECM Off
+788;maintenez position;Flight;Anchor Here
+789;Je quitte la Zone;JTAC;OFF
+790;temps sur zone 20 minutes;JTAC;Check In 20 minutes
+791;temps sur zone 35 minutes;JTAC;Check In 35 minutes
+792;Demande immage;AWACS;Request Picture
+793;En échelon droit;Flight;Go Echelon Right
+794;Compris;Undefined;Copy
+795;Bombes Larguées;JTAC;Bombs Away!
+796;Soldats;Flight;Engage Infantry
+797;En approche pour apponter;ATC;Inbound for Carrier
+798;data link frequence Focus;RIO;DL Host Focus
+799;Démarrez le groupe pneumatique;Crew;Apply Air
+800;Repetez;Undefined;Repeat
+801;radar sur stand by;RIO;Switch Radar Standby
+802;scanne a l altitude;RIO;Scan Elevation
+803;distance de scanne auto;RIO;Scan Range Automatic
+804;accroche le plus proche;RIO;STT Lock First
+805;distance de scanne 25;RIO;Scan Range 25
+806;V S L Bas;RIO;VSL Low
+807;accroche ennemi en face;RIO;STT Lock Bogey Ahead
+808;scanne en bas;RIO;Scan Elevation Low
+809;basculer S T T;RIO;Toggle PDSTT/PSTT
+810;breque loque;RIO;Break Lock
+811;selection mark 82;RIO;AG Select Mk82s
+812;accroche cible 1;RIO;STT Lock Target #1
+813;Radar Mode recherche;RIO;Radar Mode RWS
+814;stop la musique;RIO;Stop the Walkman
+815;accroche cible 4;RIO;STT Lock Target #4
+816;accroche cible 5;RIO;STT Lock Target #5
+817;accroche cible 6;RIO;STT Lock Target #6
+818;accroche cible 7;RIO;STT Lock Target #7
+819;accroche cible 8;RIO;STT Lock Target #8
+820;accroche contacte en face;RIO;STT Lock Contact Ahead
+821;scanne legerement en bas;RIO;Scan Elevation Level Low
+822;fort et claire;RIO;Confirm ICS test
+823;distance de scanne 50;RIO;Scan Range 50
+824;distance de scanne 100;RIO;Scan Range 100
+825;distance de scanne 200;RIO;Scan Range 200
+826;distance de scanne 400;RIO;Scan Range 400
+827;azimute de scanne;RIO;Scan Azimuth
+828;azimute de scanne Auto;RIO;Scan Azimuth Automatic
+829;scanne au centre gauche;RIO;Scan Azimuth Center Left
+830;scanne a gauche;RIO;Scan Azimuth Left
+831;scanne au centre droit;RIO;Scan Azimuth Center Right
+832;scanne au centre;RIO;Scan Azimuth Center
+833;scanne a droite;RIO;Scan Azimuth Right
+834;Navigation au point fixer;RIO;Navigate Fixed Point
+835;selection bombe a sous munition;RIO;AG Select Mk20s
+836;Flares Program 10 par 10;RIO;Flares Program (10x10sec)
+837;radar actif;RIO;Switch Radar Transmit
+838;Radar Mode suivi multiple;RIO;Radar Mode TWS
+839;restore point fixer;RIO;Restore Fixed Point
+840;V S L haut;RIO;VSL High
+841;Selection;Undefined;Select Recipient
+842;Bascule nacelle de désignation;RIO;Switch LANTIRN
+843;Tacan station au sol;RIO;TACAN Ground Station
+844;delivrance sur C C R P;RIO;AG Attack Mode Target
+845;accroche ami en face;RIO;STT Lock Friendly Ahead
+846;selection rocket;RIO;AG Select Zunis
+847;delivrance unique;RIO;Set Release Single
+848;navigation vers la base;RIO;Navigate Home Base
+849;Scanne elevation;RIO;Scan Elevation Level
+850;selection B D U;RIO;AG Select BDUs
+851;contre mesure manuel;RIO;CMS Mode Manual
+852;selection mark 83;RIO;AG Select Mk83s
+853;aide moi pour l atterrisage;RIO;Landing callouts allowed
+854;distance entre munition;RIO;Set Ripple Distance
+855;selection detonateur;RIO;Set Fuse
+856;detonateur de nez et queue;RIO;Set Fuse Nose Tail
+857;detonateur de nez;RIO;Set Fuse Nose
+858;detonateur securise;RIO;Set Fuse Safe
+859;largage bidon;RIO;Jettison Drop Tanks
+860;delivrance en rafale de 2;RIO;Set Ripple Quantity 2
+861;stabilise sol;RIO;Radar Stabilize Indefinitely
+862;delivrance en rafale de 10;RIO;Set Ripple Quantity 4
+863;delivrance en rafale de 20;RIO;Set Ripple Quantity 6
+864;delivrance en rafale de 30;RIO;Set Ripple Quantity 8
+865;temps entre 2 munitions;RIO;Set Ripple Time
+866;temps entre 2 munitions 10;RIO;Set Ripple Time 10
+867;temps entre 2 munitions 20;RIO;Set Ripple Time 20
+868;temps entre 2 munitions 50;RIO;Set Ripple Time 50
+869;temps entre 2 munitions 100;RIO;Set Ripple Time 100
+870;temps entre 2 munitions 200;RIO;Set Ripple Time 200
+871;temps entre 2 munitions 500;RIO;Set Ripple Time 500
+872;temps entre 2 munitions 1000;RIO;Set Ripple Time 990
+873;Navigation sur SP 2;RIO;Navigate Steerpoint 2
+874;delivrance par paire;RIO;Set Release Pairs
+875;navigation sur la cible;RIO;Navigate Surface Target
+876;distance entre 2 munition 400;RIO;Set Ripple Distance 400
+877;Demande de réparation;Crew;Request Repair
+878;distance entre 2 munition 200;RIO;Set Ripple Distance 200
+879;distance entre 2 munition 5;RIO;Set Ripple Distance 5
+880;delivrance multiple;RIO;Set Ripple Quantity
+881;distance entre 2 munition 25;RIO;Set Ripple Distance 25
+882;SRS;Undefined;Switch to VoIP
+883;delivrance en rafale de 5;RIO;Set Ripple Quantity 3
+884;data link mode;RIO;Datalink Mode
+885;abandon de la procedure;RIO;Cancel Procedure
+886;data link mode tactique;RIO;Datalink Tactical
+887;TACAN regler sur Arco;RIO;TACAN Tune Arco
+888;radio garde;RIO;AN/ARC-182 Use Guard
+889;restore sur les cibles;RIO;Restore Target
+890;ne maide pas pour l atterissage;RIO;No landing callouts
+891;Flares Program 4 par 2;RIO;Flares Program (4x2sec)
+892;demande autorisation démarrage moteurs;ATC;Request Engines Start
+893;data link Hote Magic;RIO;DL Host Magic
+894;data link Hote Oveurlord;RIO;DL Host Overlord
+895;data link Hote Wizard;RIO;DL Host Wizard
+896;alignement precis;RIO;INS Alignment Fine
+897;Restore SP 2;RIO;Restore Steerpoint 2
+898;TACAN mode transmition;RIO;TACAN Mode TR
+899;data link decimale 30;RIO;DL Preset 300.30 Mhz
+900;data link decimale 40;RIO;DL Preset 300.40 Mhz
+901;data link decimale 50;RIO;DL Preset 300.50 Mhz
+902;data link decimale 60;RIO;DL Preset 300.60 Mhz
+903;data link decimale 70;RIO;DL Preset 300.70 Mhz
+904;data link mode of;RIO;Datalink Off
+905;Restore vers la base;RIO;Restore Home Base
+906;data link Hote Darkstar;RIO;DL Host Darkstar
+907;TACAN mode biconne;RIO;TACAN Mode BCN
+908;selection armement;RIO;AG Select Stores
+909;On rentre;RIO;Navigate Home Base
+910;alignement maintenant;RIO;INS Alignment Now
+911;regler TACAN;RIO;TACAN Tune TAC
+912;TACAN regler sur chel;RIO;TACAN Tune Shell
+913;TACAN regler sur Texaco;RIO;TACAN Tune Texaco
+914;allignement moyen;RIO;INS Alignment Coarse
+915;c est parti;RIO;Perform Start Procedure
+916;restore l IP;RIO;Restore Initial Point
+917;garde ton calme;RIO;No Talking
+918;data link decimale 20;RIO;DL Preset 300.20 Mhz
+919;suivi unique;RIO;STT Lock
+920;distance entre 2 munition 50;RIO;Set Ripple Distance 50
+921;scanne legerement en haut;RIO;Scan Elevation Level High
+922;selection L U U;RIO;AG Select LUUs
+923;data link mode avion;RIO;Datalink Fighter
+924;tu peux parler;RIO;Talking Allowed
+925;TACAN mode reception;RIO;TACAN Mode REC
+926;Restore le point de defnece;RIO;Restore Defense Point
+927;data link decimale 0;RIO;DL Preset 300.00 Mhz
+928;TACAN mode air air;RIO;TACAN Mode AA
+929;navigation sur sp 1;RIO;Navigate Steerpoint 1
+930;Restore la zone hostile;RIO;Restore Hostile Zone
+931;Restore SP 1;RIO;Restore Steerpoint 1
+932;distance entre 2 munition 100;RIO;Set Ripple Distance 100
+933;Restore SP 3;RIO;Restore Steerpoint 3
+934;procedure de demarage;RIO;Perform Start Procedure
+935;reveil toi;RIO;Reset
+936;ne m aide pas pour l atterissage;RIO;No landing callouts
+937;Altitude Angele 10;Iceman;Go Altitude 10.000ft
+938;revien en arriere;RIO;Rewind
+939;selection G B U;RIO;AG Select GBUs
+940;Visuel sur fumigène;JTAC;Contact the Mark
+941;contre mesure mode;RIO;CMS Mode
+942;contre mesure auto;RIO;CMS Mode Auto
+943;affiche;RIO;RWR Display Type
+944;affiche les vols;RIO;RWR Mode Airborne
+945;affichage normal;RIO;RWR Mode Normal
+946;affiche A A A;RIO;RWR Mode AAA
+947;affichage inconnu;RIO;RWR Mode Unknown
+948;Jammeur One;RIO;Jammer On
+949;CLARA;ATC;Clara
+950;data link Hote Stennis;RIO;DL Host Stennis
+951;panier de contre mesure;RIO;Dispense Order
+952;panier de contre mesure chaff programe;RIO;Disp Order Chaff Program
+953;panier de contre mesure flare programe;RIO;Disp Order Flare Program
+954;panier de contre mesure flare unique;RIO;Disp Order Flare Single
+955;Flares Program 2 par 2;RIO;Flares Program (2x2sec)
+956;Flares Program 10 par 2;RIO;Flares Program (10x2sec)
+957;panier de contre mesure chaff rapprocher;RIO;Disp Order Chaff Tight
+958;panier de contre mesure flare serrer;RIO;Disp Order Flare Tight
+959;Jammeur Stande baille;RIO;Jammer Standby
+960;Flares Program 4 par 6;RIO;Flares Program (4x6sec)
+961;Flares Program 8 par 6;RIO;Flares Program (8x6sec)
+962;Flares Program 6 par 10;RIO;Flares Program (6x10sec)
+963;TACAN regler sur Stennis;RIO;TACAN Tune Stennis
+964;scanne en haut;RIO;Scan Elevation High
+965;Flares Program 10 par 6;RIO;Flares Program (10x6sec)
+966;data link decimale 10;RIO;DL Preset 300.10 Mhz
+967;navigation sur SP 3;RIO;Navigate Steerpoint 3
+968;5 sur 5;RIO;Confirm ICS test
+969;navigation sur l ip;RIO;Navigate Initial Point
+970;allignement mini;RIO;INS Alignment Minimum
+971;distance de scanne;RIO;Scan Range
+972;selection mark 84;RIO;AG Select Mk84s
+973;affiche les aliers;RIO;RWR Mode Friendly
+974;Salut;Crew;Salute
+975;Altitude Angele 15;Iceman;Go Altitude 15.000ft
+976;Demande Direction vers Bullseye;AWACS;Vector to Bullseye
+977;monte de 5000;Iceman;Climb 5000
+978;Altitude Angele 25;Iceman;Go Altitude 25.000ft
+979;Altitude Angele 30;Iceman;Go Altitude 30.000ft
+980;Altitude Angele 35;Iceman;Go Altitude 35.000ft
+981;Altitude Angele 5;Iceman;Go Altitude 5.000ft
+982;Altitude Angele 20;Iceman;Go Altitude 20.000ft
+983;monte de 500;Iceman;Climb 500
+984;monte de 10000;Iceman;Climb 10000
+985;ralentis de 200;Iceman;Decelerate 200kts
+986;ralentis de 100;Iceman;Decelerate 100kts
+987;ralentis de 50;Iceman;Decelerate 50kts
+988;accelere de 50;Iceman;Accelerate 50kts
+989;accelere de 100;Iceman;Accelerate 100kts
+990;accelere de 200;Iceman;Accelerate 200kts
+991;maintient ta course;Iceman;Set Heading
+992;cap au nord est;Iceman;Head NorthEast
+993;vire a gauche de 10;Iceman;Turn Left 10
+994;cap au sud ouest;Iceman;Head SouthWest
+995;vire a gauche de 45;Iceman;Turn Left 45
+996;cap a l ouest;Iceman;Head West
+997;cap au sud;Iceman;Head SouthEast
+998;cap au nord;Iceman;Head North
+999;cap a l est;Iceman;Head East
+1000;cap au nord ouest;Iceman;Head NorthWest
+1001;visuel 10 nautiques;ATC;See You At Ten
+1002;vire a gauche de 5;Iceman;Turn Left 5
+1003;vire a droite de 5;Iceman;Turn Right 5
+1004;vire a droite de 10;Iceman;Turn Right 10
+1005;vire a droite de 30;Iceman;Turn Right 30
+1006;vire a droite de 45;Iceman;Turn Right 45
+1007;Prêt à copier les remarques;JTAC;Ready for Remarks
+1008;temps sur zone 40 minutes;JTAC;Check In 40 minutes
+1009;Allumez le Radar;Flight;Radar On
+1010;Laser One;JTAC;Laser On
+1011;Finissez le vol et RTB;Flight;Complete and RTB
+1012;Temps sur zone 15 minutes;JTAC;Check In 15 minutes
+1013;colonne;Flight;Engage Armor
+1014;Serrez la formation;Flight;Close Formation
+1015;Finissez et Rejoignez;Flight;Complete and Rejoin
+1016;Mettez les cales de roues;Crew;Wheelchocks Place
+1017;Triple A;Flight;Engage Air Defenses
+1018;Arrêtez le ravitaillement;Tanker;Stop Refueling
+1019;temps sur zone 30 minutes;JTAC;Check In 30 minutes
+1020;Deconnectez le compresseur;Crew;Disconnect Air Supply
+1021;Couvrez moi;Flight;Cover Me
+1022;Approche Annulée;ATC;Abort Inbound
+1023;Rassemblez;Flight;Join Up
+1024;Terminé;JTAC;Terminate
+1025;demande Précontacte;Tanker;Ready Precontact
+1026;suivre la cible eclairee;JTAC;Contact Sparkle
+1027;contre mesure of;RIO;CMS Mode Off
+1028;Riquouest Taxi tou Runway;ATC;Request Taxi to Runway
+1029;Négatif;Undefined;Negative
+1030;Essai Radio;Flight;Radio Check
+1031;accroche cible 3;RIO;STT Lock Target #3
+1032;selection mark 81;RIO;AG Select Mk81s
+1033;data link Hote Focus;RIO;DL Host Focus
+1034;data link Hote;RIO;Datalink Set Host
+1035;Transmition;JTAC;Spot
+1036;chanson suivante;RIO;Fast Forward
+1037;navigation;RIO;Navigate Steerpoint
+1038;vire a gauche de 30;Iceman;Turn Left 30
+1039;monte de 1000;Iceman;Climb 1000
+1040;démarage moteur;ATC;Request Engines Start
+1041;Retirez les cales de roues;Crew;Wheelchocks Remove
+1042;Connectez le groupe pneumatique;Crew;Connect Air Supply
+1043;Allez au ravitailleur;Flight;Fly to Tanker
+1044;Impossible à accomplir;JTAC;Unable to Comply
+1045;Feince Ine;Flight;Fence In
+1046;Rejoignez;Flight;Complete and Rejoin
+1047;temps sur zone 60 minutes;JTAC;Check In 60 minutes
+1048;En reco sur 10 miles;Flight;Make Recon 10 Miles
+1049;Temps sur zone 50 minutes;JTAC;Check In 50 minutes
+1050;Décollage Annulé;ATC;Abort Takeoff
+1051;Rester en position;Flight;Anchor Here
+1052;En reco sur 5 miles;Flight;Make Recon 5 Miles
+1053;En reco sur 8 miles;Flight;Make Recon 8 Miles
+1054;Rechargez le Canon;Crew;Request Cannon Reload
+1055;Fence Out1;Flight;Fence Out
+1056;Quelle est ma cible;JTAC;What is my Target
+1057;Allumé ECM;Flight;ECM On
+1058;Eteignez le groupe de parc;Crew;Ground Power Off
+1059;demande l autorisation d atterrir;ATC;Request Landing
+1060;demande direction vers la base;AWACS;Vector to Base
+1061;Affirme;Undefined;Affirm
+1062;En reco sur 2 miles;Flight;Make Recon 2 Miles
+1063;Attaque Complète;JTAC;Attack Complete
+1064;En approche;ATC;Inbound
+1065;Copy Nein Leine;JTAC;Nine-line Readback
+1066;demande de rejoindre la piste;ATC;Request Taxi for Takeoff
+1067;verifiez ma vitesse;Flight;Make Recon at Point
+1068;Abort Rifioul;Tanker;Abort Refuel
+1069;demarage moteur;ATC;Request Engines Start
+1070;vecteur de la menace;AWACS;Vector to Bandit
+1071;demande de roulage;ATC;Request Taxi for Takeoff
+1072;Allumez le groupe de parc;Crew;Ground Power On
+1073;Approaching for Rifioul;Tanker;Intent to Refuel
+1074;en approche pour ravitaillement;Tanker;Intent to Refuel
+1075;blindés;Flight;Engage Armor
+1076;Attaque terminée;JTAC;Attack Complete
+1077;hostil;Flight;Engage Bandits
+1078;vecteur menace;AWACS;Vector to Bandit
+1079;Bombe larguée;JTAC;Bombs Away!
+1080;monte;Flight;Break High
+1081;Break gauche;Flight;Break Left
+1082;vire à gauche;Flight;Break Left
+1083;Directions vers la base;AWACS;Vector to Base
+1084;Break bas;Flight;Break Low
+1085;Pique;Flight;Break Low
+1086;Break droite;Flight;Break Right
+1087;vire a droite;Flight;Break Right
+1088;separation;Tanker;Abort Refuel
+1089;verifier;JTAC;Check Out
+1090;degage ma gauche;Flight;Clear Left
+1091;degage mes six;Flight;Engage My Enemy
+1092;degage mes six heures;Flight;Engage My Enemy
+1093;degage ma droite;Flight;Clear Right
+1094;formation serrer;Flight;Close Formation
+1095;rapproche toi;Flight;Close Formation
+1096;resserer la formation;Flight;Close Group Formation
+1097;Oveurhid Approtch;ATC;Approach Overhead
+1098;terminer et rallier;Flight;Complete and Rejoin
+1099;terminez et RTB;Flight;Complete and RTB
+1100;terminer et retour a la base;Flight;Complete and RTB
+1101;Connectez le compresseur;Crew;Connect Air Supply
+1102;Connecte Air Supply;Crew;Connect Air Supply
+1103;descend;Flight;Break Low
+1104;verouiller sur la fumee;JTAC;Contact the Mark
+1105;verouiller sur le marquage;JTAC;Contact the Mark
+1106;Visuel sur marquage IR;JTAC;Contact Sparkle
+1107;point entrant;JTAC;IP Inbound
+1108;en approche;JTAC;IP Inbound
+1109;couvrez moi;Flight;Cover Me
+1110;cible data link;Flight;Engage Datalink Target
+1111;Cible data link par type;Flight;Datalink Target by Type
+1112;cibles data link;Flight;Engage Datalink Targets
+1113;cibles data link par type;Flight;Datalink Targets by Type
+1114;rapport des dommages;JTAC;Request BDA
+1115;vecteur vers la base;AWACS;Vector to Base
+1116;allumer l ECM;Flight;ECM On
+1117;Disconnecte Air Supply;Crew;Disconnect Air Supply
+1118;debrancher le compresseur;Crew;Disconnect Air Supply
+1119;Demande de ré armement;Crew;Request Rearming
+1120;vecteur vers la nounou;AWACS;Vector to Tanker
+1121;eteindre l ECM;Flight;ECM Off
+1122;allumer lECM;Flight;ECM On
+1123;coupez le generateur;Crew;Ground Power Off
+1124;sort de la zone;JTAC;OFF
+1125;Fin dappuie;JTAC;OFF
+1126;formation de combat;Flight;Helo Go Combat
+1127;formation de transite;Flight;Helo Go Cruise
+1128;formation de vol;Flight;Helo Go Cruise
+1129;Echelon gauche;Flight;Go Echelon Left
+1130;Echelon droite;Flight;Go Echelon Right
+1131;formation 4 doigts;Flight;Go Finger Four
+1132;retour a la base;Flight;Return To Base
+1133;formation en ligne;Flight;Go Line Abreast
+1134;coupez l alimentation externe;Crew;Ground Power Off
+1135;coupez le generateur exterieur;Crew;Ground Power Off
+1136;eteindre le generateur;Crew;Ground Power Off
+1137;cible au sol;Flight;Engage Ground Targets
+1138;allumez le generateur;Crew;Ground Power On
+1139;branchez le generateur;Crew;Ground Power On
+1140;Guenes Guenes Guenes;JTAC;Guns!Guns!Guns!
+1141;troupes;Flight;Engage Infantry
+1142;aproche aux instrument;ATC;Approach Instrument
+1143;Jettisone Store;Flight;Jettison Weapons
+1144;recharger le canon;Crew;Request Cannon Reload
+1145;mon contact;Flight;Engage My Target
+1146;ma cible;Flight;Engage My Target
+1147;nouvelle cible;JTAC;Request Tasking
+1148;une Minute;JTAC;One Minute
+1149;Placez les cales;Crew;Wheelchocks Place
+1150;Placez les cales de roues;Crew;Wheelchocks Place
+1151;pret pour decolage;ATC;Request Takeoff
+1152;pret pour decoler;ATC;Request Takeoff
+1153;demande autorisation de decolage;ATC;Request Takeoff
+1154;enlever les cales;Crew;Wheelchocks Remove
+1155;enlever les cales de roues;Crew;Wheelchocks Remove
+1156;demande atterissage;ATC;Request Landing
+1157;coupez la fumee;Flight;Smoke Off
+1158;vecteur du bandit;AWACS;Vector to Bandit
+1159;Vector du Bullseye;AWACS;Vector to Bullseye
+1160;tir;JTAC;Rifle!
+1161;Ressu;Undefined;Roger
+1162;bateau;Flight;Engage Ships
+1163;navire;Flight;Engage Ships
+1164;enclancher la fumee;Flight;Smoke On
+1165;Spote;JTAC;Spot
+1166;illuminez la cible;JTAC;Spot
+1167;attendez pour BDA;JTAC;BDA
+1168;attendez pour le rapport;JTAC;In-flight Rep
+1169;contact visuel;JTAC;Contact
+1170;visuel;JTAC;Contact
+1171;dix Secondes;JTAC;Ten Seconds
+1172;Vehicules;Flight;Engage Utility Vehicles
+1173;Camions;Flight;Engage Utility Vehicles
+1174;quelle est ma cible;JTAC;What is my Target
+1175;passez a droite;Flight;Go Echelon Right
+1176;passez a gauche;Flight;Go Echelon Left
+1177;patrouille serrer;Flight;Close Formation
+1178;Engagez les camions;Flight;Engage Utility Vehicles
+1179;En échelon gauche;Flight;Go Echelon Left
+1180;Prêt pour mission;JTAC;Request Tasking
+1181;Déconnectez le groupe pneumatique;Crew;Disconnect Air Supply
+1182;Demande autorisation de roulage;ATC;Request Taxi for Takeoff
+1183;demarage assister;RIO;Assisted Start Procedure
+1184;En final direct;ATC;Inbound Straight
+1185;approche au breack;ATC;Approach Overhead
+1186;Confirme;ATC;Confirm
+1187;Confirme carburant restant;ATC;Confirm Remaining Fuel
+1188;approche direct;ATC;Approach Straight
+1189;Radar Mode T W S;RIO;Radar Mode TWS
+1190;largue munition;RIO;Jettison Selected
+1191;de maddog;Undefined;Switch to VoIP
+1192;Altitude Angele 1;Iceman;Go Altitude 1.000ft
+1193;data link frequence Magic;RIO;DL Host Magic
+1194;data link frequence Oveurlord;RIO;DL Host Overlord
+1195;data link frequence Stennis;RIO;DL Host Stennis
+1196;data link frequence Wizard;RIO;DL Host Wizard
+1197;colation;JTAC;Nine-line Readback
+1198;début de dictée;Kneeboard;Dictation Start
+1199;fin de dictee;Kneeboard;Dictation Stop
+1200;effacer notes;Kneeboard;Dictation Clear Notes
+1201;montrer notes;Kneeboard;Flip to Notes tab
+1202;montrez les ordres;Kneeboard;Flip to LOG/ATO tab
+1203;open canopy;RIO;RIO Open Canopy
+1204;Kiss Off1;ATC;Flight Kiss Off
+1205;en attente;ATC;Commencing
+1206;debut de descente;ATC;Approach Check In
+1207;vertical;ATC;Overhead
+1208;mirroir;ATC;Reference Ball
+1209;Radar Mode TWS Manuel;RIO;TWS Mode Manual
+1210;Cible normale;RIO;Target Size Normal
+1211;grande cible;RIO;Target Size Large
+1212;Petite cible;RIO;Target Size Small
+1213;Prends 1;Undefined;Menu Item 1
+1214;Prends 10;Undefined;Menu Item 10
+1215;Prends 11;Undefined;Menu Item 11
+1216;Prends 12;Undefined;Menu Item 12
+1217;Prends 2;Undefined;Menu Item 2
+1218;Prends 3;Undefined;Menu Item 3
+1219;Prends 4;Undefined;Menu Item 4
+1220;Prends 5;Undefined;Menu Item 5
+1221;Prends 6;Undefined;Menu Item 6
+1222;Prends 7;Undefined;Menu Item 7
+1223;Prends 8;Undefined;Menu Item 8
+1224;Prends 9;Undefined;Menu Item 9
+1225;sélectionner;Undefined;Select Recipient
+1226;TACAN regler sur Roosevelt;RIO;TACAN Tune Roosevelt
+1227;TACAN regler sur Washington;RIO;TACAN Tune Washington
+1228;TACAN regler sur Lincoln;RIO;TACAN Tune Lincoln
+1229;TACAN regler sur Truman;RIO;TACAN Tune Truman
+1230;Selectioner;Undefined;Select Recipient
+1231;Choix 10;Undefined;Menu Item 10
+1232;Choix 1;Undefined;Menu Item 1
+1233;Choix 11;Undefined;Menu Item 11
+1234;Choix 12;Undefined;Menu Item 12
+1235;Choix 2;Undefined;Menu Item 2
+1236;Choix 3;Undefined;Menu Item 3
+1237;Choix 4;Undefined;Menu Item 4
+1238;Choix 5;Undefined;Menu Item 5
+1239;Choix 6;Undefined;Menu Item 6
+1240;Choix 7;Undefined;Menu Item 7
+1241;Choix 8;Undefined;Menu Item 8
+1242;Choix 9;Undefined;Menu Item 9
+1243;Menu;Undefined;Show Options
+1244;Prends 51;Undefined;Menu Item 5
+1245;annulez l approche;ATC;Abort Inbound
+1246;annulez le decolage;ATC;Abort Takeoff
+1247;annulez le ravitallement;Tanker;Abort Refuel
+1248;Cible;RIO;LANTIRN Designate
+1249;menu 3;Undefined;Menu Item 3
+1250;menu 4;Undefined;Menu Item 4
+1251;menu 5;Undefined;Menu Item 5
+1252;menu 6;Undefined;Menu Item 6
+1253;menu 7;Undefined;Menu Item 7
+1254;menu 8;Undefined;Menu Item 8
+1255;menu 9;Undefined;Menu Item 9
+1256;menu 11;Undefined;Menu Item 11
+1257;menu 12;Undefined;Menu Item 12
+1258;menu 2;Undefined;Menu Item 2
+1259;ouvre la verriere;Crew;Canopy Open
+1260;eclairez la cible;JTAC;Spot
+1261;ferme la verriere;Crew;Canopy Close
+1262;RWR avion;RIO;RWR Mode Airborne
+1263;menu 1;Undefined;Menu Item 1
+1264;affiche navigride;RIO;Enable NAVGRID
+1265;affiche gride;RIO;Enable NAVGRID
+1266;enleve navigride;RIO;Disable NAVGRID
+1267;radar on;RIO;Switch Radar Transmit
+1268;Radar One;Flight;Radar On
+1269;TDI normal;RIO;Radar Stabilize Indefinitely
+1270;RWR normal;RIO;RWR Mode Normal
+1271;RWR;RIO;RWR Display Type
+1272;RWR inconnu;RIO;RWR Mode Unknown
+1273;RWR triple A;RIO;RWR Mode AAA
+1274;RWR allier;RIO;RWR Mode Friendly
+1275;distance entre 2 munition 10;RIO;Set Ripple Distance 10
+1276;Dont Auto Designate;RIO;Inhibit Auto Designate
+1277;pas de ciblage auto;RIO;Inhibit Auto Designate
+1278;Trac Borsseit;RIO;LANTIRN QHUD QADL
+1279;enleve cible;RIO;LANTIRN Undesignate
+1280;ne cible pas automatiquement;RIO;Inhibit Auto Designate
+1281;Suivi SP 1;RIO;LANTIRN Track Steerpoint 1
+1282;Cible suivante;RIO;LANTIRN Next Target
+1283;armement laser;RIO;Laser Arm
+1284;Armer laser;RIO;Laser Arm
+1285;Bascule Laser;RIO;Laser Toggle
+1286;change vision thermique;RIO;Black White Hot Toggle
+1287;vision thermique;RIO;Black White Hot Toggle
+1288;Suivi Borsseit;RIO;LANTIRN QHUD QADL
+1289;Suivi cible;RIO;LANTIRN QDES
+1290;SnoPlo;RIO;LANTIRN QSNO
+1291;Suivi nez;RIO;LANTIRN QSNO
+1292;Cible précédente;RIO;LANTIRN Previous Target
+1293;Nouvelle cible;RIO;LANTIRN Next Target
+1294;Activer Laser;RIO;Laser Latch
+1295;Suivi SP 2;RIO;LANTIRN Track Steerpoint 2
+1296;Suivi SP 3;RIO;LANTIRN Track Steerpoint 3
+1297;Suivi point fixer;RIO;LANTIRN Track FP
+1298;Suivi point fixe;RIO;LANTIRN Track FP
+1299;Suivi IP;RIO;LANTIRN Track IP
+1300;Suivi sur l IP;RIO;LANTIRN Track IP
+1301;Suivi ST;RIO;LANTIRN Track ST
+1302;Suivi cible de surface;RIO;LANTIRN Track ST
+1303;Suivi retour base;RIO;LANTIRN Track HB
+1304;Suivi DP;RIO;LANTIRN Track DP
+1305;bascule vue;RIO;LANTIRN Toggle FOV
+1306;Change vue;RIO;LANTIRN Toggle FOV
+1307;Change F O V;RIO;LANTIRN Toggle FOV
+1308;Aréa Trac;RIO;LANTIRN Stabilize
+1309;Cherche cible au sol;RIO;LANTIRN Search All
+1310;Cheche sam;RIO;LANTIRN Search SAMs
+1311;Cherche tank;RIO;LANTIRN Search Armor
+1312;Cherche char;RIO;LANTIRN Search Armor
+1313;Cherche en mouvement;RIO;LANTIRN Search Vehicles
+1314;Cherche avion;RIO;LANTIRN Search Bogeys
+1315;Cherche avion actif;RIO;LANTIRN Search Active Bogeys
+1316;Cherche avion en route;RIO;LANTIRN Search Active Bogeys
+1317;Cherche bateau;RIO;LANTIRN Search Ships
+1318;Cherche grande cible;RIO;Target Size Large
+1319;Cherche cible normale;RIO;Target Size Normal
+1320;Cherche petite cible;RIO;Target Size Small
+1321;Cherche activité;RIO;LANTIRN Search Active
+1322;Resèt Lanterne;RIO;LANTIRN Reset
+1323;Guidage casque;RIO;LANTIRN Control Eyeballs
+1324;menu 10;Undefined;Menu Item 10
+;AI Recipients;
+1325;Flight;Flight;Flight
+1326;Element;Flight;Element
+1327;Section;Flight;Element
+1328;One;Flight;Wingman 1
+1329;Lead;Flight;Wingman 1
+1330;Winger;Flight;Wingman 2
+1331;Two;Flight;Wingman 2
+1332;Three;Flight;Wingman 3
+1333;Four;Flight;Wingman 4
+1334;Gopher;Flight;Wingman 2
+1335;Pyro;Flight;Wingman 3
+1336;Bozo;Flight;Wingman 4
+1337;JTAC;JTAC;JTAC
+1338;Patrol;JTAC;JTAC
+1339;Operator;JTAC;JTAC
+1340;Axeman;JTAC;Axeman
+1341;Darknight;JTAC;Darknight
+1342;Eyeball;JTAC;Eyeball
+1343;Finger;JTAC;Finger
+1344;Firefly;JTAC;Firefly
+1345;Moonbeam;JTAC;Moonbeam
+1346;Playboy;JTAC;Playboy
+1347;Pointer;JTAC;Pointer
+1348;Warrior;JTAC;Warrior
+1349;Whiplash;JTAC;Whiplash
+1350;Pinpoint;JTAC;Pinpoint
+1351;Ferret;JTAC;Ferret
+1352;Shaba;JTAC;Shaba
+1353;Hammer;JTAC;Hammer
+1354;Jaguar;JTAC;Jaguar
+1355;Deathstar;JTAC;Deathstar
+1356;Anvil;JTAC;Anvil
+1357;Mantis;JTAC;Mantis
+1358;Badger;JTAC;Badger
+1359;Boar;JTAC;Boar
+1360;Chevy;JTAC;Chevy
+1361;Colt;JTAC;Colt
+1362;Dodge;JTAC;Dodge
+1363;Enfield;JTAC;Enfield
+1364;Ford;JTAC;Ford
+1365;Hawg;JTAC;Hawg
+1366;Pig;JTAC;Pig
+1367;Pontiac;JTAC;Pontiac
+1368;Springfield;JTAC;Springfield
+1369;Tusk;JTAC;Tusk
+1370;Uzi;JTAC;Uzi
+1371;Nearest Patrol;JTAC;Nearest JTAC
+1372;ATC;ATC;Air Traffic Controller
+1373;Tower;ATC;Air Traffic Controller
+1374;Traffic;ATC;Air Traffic Controller
+1375;Nearest ATC;ATC;Nearest Airfield
+1376;Nearest Airfield;ATC;Nearest Airfield
+1377;Proxy;ATC;Nearest Airfield
+1378;Anapa;ATC;Anapa-Vityazevo
+1379;Batumi;ATC;Batumi
+1380;Beslan;ATC;Beslan
+1381;Gelendzhik;ATC;Gelendzhik
+1382;Gudauta;ATC;Gudauta
+1383;Khanskaya;ATC;Maykop-Khanskaya
+1384;Kobuleti;ATC;Kobuleti
+1385;Kolkhi;ATC;Senaki-Kolkhi
+1386;Senaki;ATC;Senaki-Kolkhi
+1387;Krasnodar;ATC;Krasnodar-Center
+1388;Krymsk;ATC;Krymsk
+1389;Kutaisi;ATC;Kutaisi
+1390;Lochini;ATC;Tbilisi-Lochini
+1391;Tbilisi;ATC;Tbilisi-Lochini
+1392;Minvody;ATC;Mineralnye Vody
+1393;Mozdok;ATC;Mozdok
+1394;Nalchik;ATC;Nalchik
+1395;Novorossiysk;ATC;Novorossiysk
+1396;Pashkovsky;ATC;Krasnodar-Pashkovsky
+1397;Sochi;ATC;Sochi-Adler
+1398;Soganlug;ATC;Soganlug
+1399;Sukhumi;ATC;Sukhumi-Babushara
+1400;Vaziani;ATC;Vaziani
+1401;Creech;ATC;Creech AFB
+1402;Indian Springs;ATC;Creech AFB
+1403;North Las Vegas;ATC;North Las Vegas
+1404;Graceland;ATC;North Las Vegas
+1405;Henderson;ATC;Henderson Executive Airport
+1406;McCarran;ATC;McCarran International Airport
+1407;Las Vegas;ATC;McCarran International Airport
+1408;Laughlin;ATC;Laughlin Airport
+1409;Bullhead;ATC;Laughlin Airport
+1410;Tonopah;ATC;Tonopah Test Range Airfield
+1411;Silverbow;ATC;Tonopah Test Range Airfield
+1412;Groom Lake;ATC;Groom Lake AFB
+1413;Dreamland;ATC;Groom Lake AFB
+1414;Nellis;ATC;Nellis AFB
+1415;NellisControl;ATC;Nellis AFB
+1416;Beny;ATC;Beny-sur-Mer
+1417;Sainte Croix;ATC;Sainte-Croix-sur-Mer
+1418;Lantheuil;ATC;Lantheuil
+1419;Bazenville;ATC;Bazenville
+1420;Sommervieu;ATC;Sommervieu
+1421;Longues;ATC;Longues-sur-Mer
+1422;Molay;ATC;Le Molay
+1423;Saint Laurent;ATC;Sainte-Laurent-sur-Mer
+1424;Saint Pierre;ATC;Saint Pierre du Mont
+1425;Deux Jumeaux;ATC;Deux Jumeaux
+1426;Chippelle;ATC;Chippelle
+1427;Cricqueville;ATC;Cricqueville-en-Bessin
+1428;Cardonville;ATC;Cardonville
+1429;Brucheville;ATC;Brucheville
+1430;Meautis;ATC;Meautis
+1431;Azeville;ATC;Azeville
+1432;Cretteville;ATC;Cretteville
+1433;Picauville;ATC;Picauville
+1434;Biniville;ATC;Biniville
+1435;Lessay;ATC;Lessay
+1436;Maupertus;ATC;Maupertus
+1437;Evreux;ATC;Evreux
+1438;Forde;ATC;Forde
+1439;Tangmere;ATC;Tangmere
+1440;Funtington;ATC;Funtington
+1441;Chailey;ATC;Chailey
+1442;Needs Oar;ATC;Needs Oar Point
+1443;Al Maktoum;ATC;Al Maktoum Intl
+1444;Al Minhad;ATC;Al Minhad AFB
+1445;Dubai;ATC;Dubai Intl
+1446;Sharjah;ATC;Sharjah Intl
+1447;Abu Musa;ATC;Abu Musa Island Airport
+1448;Sirri;ATC;Sirri Island
+1449;Fujairah;ATC;Fujairah Intl
+1450;Bandar;ATC;Bandar Lengeh
+1451;Khasab;ATC;Khasab
+1452;Qeshm Island;ATC;Qeshm Island
+1453;Havadarya;ATC;Havadarya
+1454;Bandar Abbas;ATC;Bandar Abbas Intl
+1455;Lar Airbase;ATC;Lar Airbase
+1456;Kerman Airport;ATC;Kerman Airport
+1457;Shiraz Airport;ATC;Shiraz Intl Airport
+1458;Al Bateen;ATC;Al-Bateen Airport
+1459;Kish Island;ATC;Kish International Airport
+1460;Lavan Island;ATC;Lavan Island Airport
+1461;Al Ain Airport;ATC;Al Ain International Airport
+1462;Abu Dhabi;ATC;Abu Dhabi International
+1463;Sas Al Nakheel;ATC;Sas Al Nakheel Airport
+1464;Jiroft;ATC;Jiroft Airport
+1465;Liwa Airbase;ATC;Liwa Airbase
+1466;Ras Al Khaimah;ATC;Ras Al Khaimah
+1467;Dunkirk;ATC;Dunkirk Mardyck
+1468;Hawkinge;ATC;Hawkinge
+1469;Saint Omer;ATC;Saint Omer Longuenesse
+1470;Calonne;ATC;Merville Calonne
+1471;High Halden;ATC;High Halden
+1472;Detling;ATC;Detling
+1473;Drucat;ATC;Abbeville Drucat
+1474;Lympne;ATC;Lympne
+1475;Manston;ATC;Manston
+1476;Hariri;ATC;Beirut-Rafic Hariri
+1477;Riyaq;ATC;Rayak
+1478;Hamat;ATC;Wujah Al Hajar
+1479;Kiryat;ATC;Kiryat Shmona
+1480;Mezzeh;ATC;Mezzeh
+1481;Qabr as Sitt;ATC;Qabr as Sitt
+1482;Rene Mouawad;ATC;Rene Mouawad
+1483;Marj as Sultan;ATC;Marj as Sultan North
+1484;Der Salman;ATC;Marj as Sultan South
+1485;Marj Ruhayyil;ATC;Marj Ruhayyil
+1486;Dumayr;ATC;Al-Dumayr
+1487;Haifa;ATC;Haifa
+1488;An Nasiriyah;ATC;An Nasiriyah
+1489;Al Qusayr;ATC;Al Qusayr
+1490;Khalkhalah;ATC;Khalkhalah
+1491;Ramat David;ATC;Ramat David
+1492;Megiddo;ATC;Megiddo
+1493;Eyn Shemer;ATC;Eyn Shemer
+1494;Latakia;ATC;Bassel Al-Assad
+1495;Abu al-Duhur;ATC;Abu al-Duhur
+1496;Taftanaz;ATC;Taftanaz
+1497;Hatay;ATC;Hatay
+1498;Rasin;ATC;Kuweires
+1499;Minakh;ATC;Minakh
+1500;Jirah;ATC;Jirah
+1501;Adana;ATC;Adana Sakirpasa
+1502;Incirlik;ATC;Incirlik
+1503;Platform;ATC;Helipad
+1504;FARP;ATC;Helipad
+1505;Berlin;ATC;Berlin
+1506;Dallas;ATC;Dallas
+1507;Dublin;ATC;Dublin
+1508;London;ATC;London
+1509;Madrid;ATC;Madrid
+1510;Moscow;ATC;Moscow
+1511;Paris;ATC;Paris
+1512;Perth;ATC;Perth
+1513;Rome;ATC;Rome
+1514;Warsaw;ATC;Warsaw
+1515;Kaemka;ATC;Kaemka
+1516;Kalitka;ATC;Kalitka
+1517;Kapel;ATC;Kapel
+1518;Otkrytka;ATC;Otkrytka
+1519;Podkova;ATC;Podkova
+1520;Shpora;ATC;Shpora
+1521;Skala;ATC;Skala
+1522;Torba;ATC;Torba
+1523;Vetka;ATC;Vetka
+1524;Yunga;ATC;Yunga
+1525;Lone Warrior;ATC;CVN-75 Harry S. Truman
+1526;Nearest Carrier;ATC;Carrier Operations
+1527;Admiral Kuznetsov;ATC;CV 1143.5 Admiral Kuznetsov
+1528;Carl Vinson;ATC;CVN-70 Carl Vinson
+1529;Tarawa;ATC;LHA-1 Tarawa
+1530;Perry;ATC;FFG-7CL Oliver Hazzard Perry
+1531;Normandy;ATC;CG-60 Normandy
+1532;CV-59 Forrestal;ATC;CV-59 Forrestal
+1533;Roosevelt;ATC;CVN-71 Theodore Roosevelt
+1534;LSO;ATC;Carrier Operations
+1535;Lincoln;ATC;CVN-72 Abraham Lincoln
+1536;Approach;ATC;Carrier Operations
+1537;Washington;ATC;CVN-73 George Washington
+1538;Marshal;ATC;Carrier Operations
+1539;Stennis;ATC;CVN-74 John C. Stennis
+1540;Cats;ATC;Carrier Operations
+1541;Truman;ATC;CVN-75 Harry S. Truman
+1542;Carrier;ATC;Carrier Operations
+1543;Courage;ATC;CVN-74 John C. Stennis
+1544;Warfighter;ATC;CVN-73 George Washington
+1545;Union;ATC;CVN-72 Abraham Lincoln
+1546;Rough Rider;ATC;CVN-71 Theodore Roosevelt
+1547;Paddles;ATC;Carrier Operations
+1548;Awacs;AWACS;AWACS
+1549;Darkstar;AWACS;Darkstar
+1550;Focus;AWACS;Focus
+1551;Magic;AWACS;Magic
+1552;Overlord;AWACS;Overlord
+1553;Wizard;AWACS;Wizard
+1554;Nearest AWACS;AWACS;Nearest AWACS
+1555;Tanker;Tanker;Tanker
+1556;Texaco;Tanker;Texaco
+1557;Shell;Tanker;Shell
+1558;Arco;Tanker;Arco
+1559;Nearest Tanker;Tanker;Nearest Tanker
+1560;Crew;Crew;Ground Crew
+1561;Chief;Crew;Ground Crew
+1562;Sarge;Crew;Ground Crew
+1563;Crystal Palace;AOCS;AOCS
+1564;Server;Aux;F10 Menu
+1565;Mystery;Aux;F10 Menu
+1566;Mission;Aux;F10 Menu
+1567;Cargo;Cargo;Cargo
+1568;Descent;Descent;Descent
+1569;Kneeboard;Kneeboard;Kneeboard
+1570;RIO;RIO;F-14 AI RIO
+1571;Jester;RIO;F-14 AI RIO
+1572;Ice;RIO;F-14 AI Pilot
+1573;deux;Flight;Wingman 2
+1574;A tous;Flight;Flight
+1575;equipe au sol;Crew;Ground Crew
+1576;Trois;Flight;Wingman 3
+1577;chef;Crew;Ground Crew
+1578;Jestere;RIO;F-14 AI RIO
+1579;tour de controle;ATC;Air Traffic Controller
+1580;Téxaco;Tanker;Texaco
+1581;Nounou;Tanker;Tanker
+1582;Quatre;Flight;Wingman 4
+1583;Vol;Flight;Flight
+1584;trois;Flight;Wingman 3
+1585;quatre;Flight;Wingman 4
+1586;chef avia;Crew;Ground Crew
+1587;AVIA;ATC;Air Traffic Controller
+1588;rouzvelte;ATC;CVN-71 Theodore Roosevelt
+1589;planchette;Kneeboard;Kneeboard
+1590;Batoumi;ATC;Batumi
+1591;Lideur;Flight;Wingman 1
+1592;Oveurlord;AWACS;Overlord
+1593;Descendez;Descent;Descent
+1594;Deux;Flight;Wingman 2
+1595;Al Dhafra AB;ATC;Al Dhafra AB
+1596;Tchéstere;RIO;F-14 AI RIO
+;----;
+;Imported ATCs;
+1597;DDG Arleigh Burke IIa;;DDG Arleigh Burke IIa
+1598;unknown;;DDG Arleigh Burke IIa
+1599;CG Ticonderoga;;CG Ticonderoga
+1600;Sir Abu Nuayr;;Sir Abu Nuayr
+1601;OMSN;;Sir Abu Nuayr
+1602;Al-Bateen;;Al-Bateen
+1603;OMAD;;Al-Bateen
+1604;Sas Al Nakheel;;Sas Al Nakheel
+1605;OMNK;;Sas Al Nakheel
+1606;Abu Dhabi Intl;;Abu Dhabi Intl
+1607;OMAA;;Abu Dhabi Intl
+1608;Pétrolier Seawise Giant;;Pétrolier Seawise Giant
+1609;Al Dhafra AFB;;Al Dhafra AFB
+1610;OMAM;;Al Dhafra AFB
+1611;Liwa AFB;;Liwa AFB
+1612;OMLW;;Liwa AFB
+1613;Ras Al Khaimah Intl;;Ras Al Khaimah Intl
+1614;OMRK;;Ras Al Khaimah Intl
+1615;Al Ain Intl;;Al Ain Intl
+1616;OMAL;;Al Ain Intl
+1617;Al Dhafra;;Al Dhafra AFB
+;Imported F10 menu commands;
+1618;Action Hawk Site Disabled;;Action Hawk Site Disabled
+;Player Group Callsigns;
+1619;Boar;;Boar
+1620;Chevy;;Chevy
+1621;Colt;;Colt
+1622;Dodge;;Dodge
+1623;Enfield;;Enfield
+1624;Ford;;Ford
+1625;Hawg;;Hawg
+1626;Pig;;Pig
+1627;Pontiac;;Pontiac
+1628;Springfield;;Springfield
+1629;Tusk;;Tusk
+1630;Uzi;;Uzi
+;----;
