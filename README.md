@@ -1,7 +1,7 @@
 # vaicom_dcs
 Voiceattack avec vaicom pro pour DCS en Francais French
 
-Ce fichier est principalement une compilation de differentes source:
+Ce fichier est principalement une compilation de differentes sources:
 
 -> Olivier Gaming: https://www.youtube.com/channel/UCvghcDSMWXUjLEjFcBBumVw
 
