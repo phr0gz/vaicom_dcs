@@ -1600,42 +1600,46 @@
 1594;Deux;Flight;Wingman 2
 1595;Al Dhafra AB;ATC;Al Dhafra AB
 1596;Tchéstere;RIO;F-14 AI RIO
+1597;Goose;RIO;F-14 AI RIO
+1598;Gouse;RIO;F-14 AI RIO
+1599;Couzz;RIO;F-14 AI RIO
+1600;Gouz;RIO;F-14 AI RIO
 ;----;
 ;Imported ATCs;
-1597;DDG Arleigh Burke IIa;;DDG Arleigh Burke IIa
-1598;unknown;;DDG Arleigh Burke IIa
-1599;CG Ticonderoga;;CG Ticonderoga
-1600;Sir Abu Nuayr;;Sir Abu Nuayr
-1601;OMSN;;Sir Abu Nuayr
-1602;Al-Bateen;;Al-Bateen
-1603;OMAD;;Al-Bateen
-1604;Sas Al Nakheel;;Sas Al Nakheel
-1605;OMNK;;Sas Al Nakheel
-1606;Abu Dhabi Intl;;Abu Dhabi Intl
-1607;OMAA;;Abu Dhabi Intl
-1608;Pétrolier Seawise Giant;;Pétrolier Seawise Giant
-1609;Al Dhafra AFB;;Al Dhafra AFB
-1610;OMAM;;Al Dhafra AFB
-1611;Liwa AFB;;Liwa AFB
-1612;OMLW;;Liwa AFB
-1613;Ras Al Khaimah Intl;;Ras Al Khaimah Intl
-1614;OMRK;;Ras Al Khaimah Intl
-1615;Al Ain Intl;;Al Ain Intl
-1616;OMAL;;Al Ain Intl
-1617;Al Dhafra;;Al Dhafra AFB
+1601;DDG Arleigh Burke IIa;;DDG Arleigh Burke IIa
+1602;unknown;;DDG Arleigh Burke IIa
+1603;CG Ticonderoga;;CG Ticonderoga
+1604;Sir Abu Nuayr;;Sir Abu Nuayr
+1605;OMSN;;Sir Abu Nuayr
+1606;Al-Bateen;;Al-Bateen
+1607;OMAD;;Al-Bateen
+1608;Sas Al Nakheel;;Sas Al Nakheel
+1609;OMNK;;Sas Al Nakheel
+1610;Abu Dhabi Intl;;Abu Dhabi Intl
+1611;OMAA;;Abu Dhabi Intl
+1612;Pétrolier Seawise Giant;;Pétrolier Seawise Giant
+1613;Al Dhafra AFB;;Al Dhafra AFB
+1614;OMAM;;Al Dhafra AFB
+1615;Liwa AFB;;Liwa AFB
+1616;OMLW;;Liwa AFB
+1617;Ras Al Khaimah Intl;;Ras Al Khaimah Intl
+1618;OMRK;;Ras Al Khaimah Intl
+1619;Al Ain Intl;;Al Ain Intl
+1620;OMAL;;Al Ain Intl
+1621;Al Dhafra;;Al Dhafra AFB
 ;Imported F10 menu commands;
-1618;Action Hawk Site Disabled;;Action Hawk Site Disabled
+1622;Action Hawk Site Disabled;;Action Hawk Site Disabled
 ;Player Group Callsigns;
-1619;Boar;;Boar
-1620;Chevy;;Chevy
-1621;Colt;;Colt
-1622;Dodge;;Dodge
-1623;Enfield;;Enfield
-1624;Ford;;Ford
-1625;Hawg;;Hawg
-1626;Pig;;Pig
-1627;Pontiac;;Pontiac
-1628;Springfield;;Springfield
-1629;Tusk;;Tusk
-1630;Uzi;;Uzi
+1623;Boar;;Boar
+1624;Chevy;;Chevy
+1625;Colt;;Colt
+1626;Dodge;;Dodge
+1627;Enfield;;Enfield
+1628;Ford;;Ford
+1629;Hawg;;Hawg
+1630;Pig;;Pig
+1631;Pontiac;;Pontiac
+1632;Springfield;;Springfield
+1633;Tusk;;Tusk
+1634;Uzi;;Uzi
 ;----;
