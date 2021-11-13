@@ -9,5 +9,5 @@ Ce fichier est principalement une compilation de differentes sources:
 
 -> Skypat: https://www.digitalcombatsimulator.com/en/files/3309761/
 
-
 Inclus mise a jour lantirn et jester 12/11/2021.
+Si quelqu'un a des sources / connaissances concernant le jargon dans l'aviation militaire, ne pas hesiter a proposer des changements ou simplement partager les sources.
