@@ -10,4 +10,4 @@ Ce fichier est principalement une compilation de differentes source:
 -> Skypat: https://www.digitalcombatsimulator.com/en/files/3309761/
 
 
-Inclus mise a jour lantirn 12/11/2021.
+Inclus mise a jour lantirn et jester 12/11/2021.
