@@ -1333,339 +1333,340 @@
 1328;prêt pour le départ;ATC;Request Takeoff
 1329;en rapprochement pour atterrir;ATC;Inbound
 1330;aproche IFR;ATC;Approach Instrument
+1331;Allume Laser;JTAC;Laser On
 ;AI Recipients;
-1331;Flight;Flight;Flight
-1332;Element;Flight;Element
-1333;Section;Flight;Element
-1334;One;Flight;Wingman 1
-1335;Lead;Flight;Wingman 1
-1336;Winger;Flight;Wingman 2
-1337;Two;Flight;Wingman 2
-1338;Three;Flight;Wingman 3
-1339;Four;Flight;Wingman 4
-1340;Gopher;Flight;Wingman 2
-1341;Pyro;Flight;Wingman 3
-1342;Bozo;Flight;Wingman 4
-1343;JTAC;JTAC;JTAC
-1344;Patrol;JTAC;JTAC
-1345;Operator;JTAC;JTAC
-1346;Axeman;JTAC;Axeman
-1347;Darknight;JTAC;Darknight
-1348;Eyeball;JTAC;Eyeball
-1349;Finger;JTAC;Finger
-1350;Firefly;JTAC;Firefly
-1351;Moonbeam;JTAC;Moonbeam
-1352;Playboy;JTAC;Playboy
-1353;Pointer;JTAC;Pointer
-1354;Warrior;JTAC;Warrior
-1355;Whiplash;JTAC;Whiplash
-1356;Pinpoint;JTAC;Pinpoint
-1357;Ferret;JTAC;Ferret
-1358;Shaba;JTAC;Shaba
-1359;Hammer;JTAC;Hammer
-1360;Jaguar;JTAC;Jaguar
-1361;Deathstar;JTAC;Deathstar
-1362;Anvil;JTAC;Anvil
-1363;Mantis;JTAC;Mantis
-1364;Badger;JTAC;Badger
-1365;Boar;JTAC;Boar
-1366;Chevy;JTAC;Chevy
-1367;Colt;JTAC;Colt
-1368;Dodge;JTAC;Dodge
-1369;Enfield;JTAC;Enfield
-1370;Ford;JTAC;Ford
-1371;Hawg;JTAC;Hawg
-1372;Pig;JTAC;Pig
-1373;Pontiac;JTAC;Pontiac
-1374;Springfield;JTAC;Springfield
-1375;Tusk;JTAC;Tusk
-1376;Uzi;JTAC;Uzi
-1377;Nearest Patrol;JTAC;Nearest JTAC
-1378;ATC;ATC;Air Traffic Controller
-1379;Tower;ATC;Air Traffic Controller
-1380;Traffic;ATC;Air Traffic Controller
-1381;Nearest ATC;ATC;Nearest Airfield
-1382;Nearest Airfield;ATC;Nearest Airfield
-1383;Proxy;ATC;Nearest Airfield
-1384;Anapa;ATC;Anapa-Vityazevo
-1385;Batumi;ATC;Batumi
-1386;Beslan;ATC;Beslan
-1387;Gelendzhik;ATC;Gelendzhik
-1388;Gudauta;ATC;Gudauta
-1389;Khanskaya;ATC;Maykop-Khanskaya
-1390;Kobuleti;ATC;Kobuleti
-1391;Kolkhi;ATC;Senaki-Kolkhi
-1392;Senaki;ATC;Senaki-Kolkhi
-1393;Krasnodar;ATC;Krasnodar-Center
-1394;Krymsk;ATC;Krymsk
-1395;Kutaisi;ATC;Kutaisi
-1396;Lochini;ATC;Tbilisi-Lochini
-1397;Tbilisi;ATC;Tbilisi-Lochini
-1398;Minvody;ATC;Mineralnye Vody
-1399;Mozdok;ATC;Mozdok
-1400;Nalchik;ATC;Nalchik
-1401;Novorossiysk;ATC;Novorossiysk
-1402;Pashkovsky;ATC;Krasnodar-Pashkovsky
-1403;Sochi;ATC;Sochi-Adler
-1404;Soganlug;ATC;Soganlug
-1405;Sukhumi;ATC;Sukhumi-Babushara
-1406;Vaziani;ATC;Vaziani
-1407;Creech;ATC;Creech AFB
-1408;Indian Springs;ATC;Creech AFB
-1409;North Las Vegas;ATC;North Las Vegas
-1410;Graceland;ATC;North Las Vegas
-1411;Henderson;ATC;Henderson Executive Airport
-1412;McCarran;ATC;McCarran International Airport
-1413;Las Vegas;ATC;McCarran International Airport
-1414;Laughlin;ATC;Laughlin Airport
-1415;Bullhead;ATC;Laughlin Airport
-1416;Tonopah;ATC;Tonopah Test Range Airfield
-1417;Silverbow;ATC;Tonopah Test Range Airfield
-1418;Groom Lake;ATC;Groom Lake AFB
-1419;Dreamland;ATC;Groom Lake AFB
-1420;Nellis;ATC;Nellis AFB
-1421;NellisControl;ATC;Nellis AFB
-1422;Beny;ATC;Beny-sur-Mer
-1423;Sainte Croix;ATC;Sainte-Croix-sur-Mer
-1424;Lantheuil;ATC;Lantheuil
-1425;Bazenville;ATC;Bazenville
-1426;Sommervieu;ATC;Sommervieu
-1427;Longues;ATC;Longues-sur-Mer
-1428;Molay;ATC;Le Molay
-1429;Saint Laurent;ATC;Sainte-Laurent-sur-Mer
-1430;Saint Pierre;ATC;Saint Pierre du Mont
-1431;Deux Jumeaux;ATC;Deux Jumeaux
-1432;Chippelle;ATC;Chippelle
-1433;Cricqueville;ATC;Cricqueville-en-Bessin
-1434;Cardonville;ATC;Cardonville
-1435;Brucheville;ATC;Brucheville
-1436;Meautis;ATC;Meautis
-1437;Azeville;ATC;Azeville
-1438;Cretteville;ATC;Cretteville
-1439;Picauville;ATC;Picauville
-1440;Biniville;ATC;Biniville
-1441;Lessay;ATC;Lessay
-1442;Maupertus;ATC;Maupertus
-1443;Evreux;ATC;Evreux
-1444;Forde;ATC;Forde
-1445;Tangmere;ATC;Tangmere
-1446;Funtington;ATC;Funtington
-1447;Chailey;ATC;Chailey
-1448;Needs Oar;ATC;Needs Oar Point
-1449;Al Maktoum;ATC;Al Maktoum Intl
-1450;Al Minhad;ATC;Al Minhad AFB
-1451;Dubai;ATC;Dubai Intl
-1452;Sharjah;ATC;Sharjah Intl
-1453;Abu Musa;ATC;Abu Musa Island Airport
-1454;Sirri;ATC;Sirri Island
-1455;Fujairah;ATC;Fujairah Intl
-1456;Bandar;ATC;Bandar Lengeh
-1457;Khasab;ATC;Khasab
-1458;Qeshm Island;ATC;Qeshm Island
-1459;Havadarya;ATC;Havadarya
-1460;Bandar Abbas;ATC;Bandar Abbas Intl
-1461;Lar Airbase;ATC;Lar Airbase
-1462;Kerman Airport;ATC;Kerman Airport
-1463;Shiraz Airport;ATC;Shiraz Intl Airport
-1464;Al Bateen;ATC;Al-Bateen Airport
-1465;Kish Island;ATC;Kish International Airport
-1466;Lavan Island;ATC;Lavan Island Airport
-1467;Al Ain Airport;ATC;Al Ain International Airport
-1468;Abu Dhabi;ATC;Abu Dhabi International
-1469;Sas Al Nakheel;ATC;Sas Al Nakheel Airport
-1470;Jiroft;ATC;Jiroft Airport
-1471;Liwa Airbase;ATC;Liwa Airbase
-1472;Ras Al Khaimah;ATC;Ras Al Khaimah
-1473;Dunkirk;ATC;Dunkirk Mardyck
-1474;Hawkinge;ATC;Hawkinge
-1475;Saint Omer;ATC;Saint Omer Longuenesse
-1476;Calonne;ATC;Merville Calonne
-1477;High Halden;ATC;High Halden
-1478;Detling;ATC;Detling
-1479;Drucat;ATC;Abbeville Drucat
-1480;Lympne;ATC;Lympne
-1481;Manston;ATC;Manston
-1482;Hariri;ATC;Beirut-Rafic Hariri
-1483;Riyaq;ATC;Rayak
-1484;Hamat;ATC;Wujah Al Hajar
-1485;Kiryat;ATC;Kiryat Shmona
-1486;Mezzeh;ATC;Mezzeh
-1487;Qabr as Sitt;ATC;Qabr as Sitt
-1488;Rene Mouawad;ATC;Rene Mouawad
-1489;Marj as Sultan;ATC;Marj as Sultan North
-1490;Der Salman;ATC;Marj as Sultan South
-1491;Marj Ruhayyil;ATC;Marj Ruhayyil
-1492;Dumayr;ATC;Al-Dumayr
-1493;Haifa;ATC;Haifa
-1494;An Nasiriyah;ATC;An Nasiriyah
-1495;Al Qusayr;ATC;Al Qusayr
-1496;Khalkhalah;ATC;Khalkhalah
-1497;Ramat David;ATC;Ramat David
-1498;Megiddo;ATC;Megiddo
-1499;Eyn Shemer;ATC;Eyn Shemer
-1500;Latakia;ATC;Bassel Al-Assad
-1501;Abu al-Duhur;ATC;Abu al-Duhur
-1502;Taftanaz;ATC;Taftanaz
-1503;Hatay;ATC;Hatay
-1504;Rasin;ATC;Kuweires
-1505;Minakh;ATC;Minakh
-1506;Jirah;ATC;Jirah
-1507;Adana;ATC;Adana Sakirpasa
-1508;Incirlik;ATC;Incirlik
-1509;Platform;ATC;Helipad
-1510;FARP;ATC;Helipad
-1511;Berlin;ATC;Berlin
-1512;Dallas;ATC;Dallas
-1513;Dublin;ATC;Dublin
-1514;London;ATC;London
-1515;Madrid;ATC;Madrid
-1516;Moscow;ATC;Moscow
-1517;Paris;ATC;Paris
-1518;Perth;ATC;Perth
-1519;Rome;ATC;Rome
-1520;Warsaw;ATC;Warsaw
-1521;Kaemka;ATC;Kaemka
-1522;Kalitka;ATC;Kalitka
-1523;Kapel;ATC;Kapel
-1524;Otkrytka;ATC;Otkrytka
-1525;Podkova;ATC;Podkova
-1526;Shpora;ATC;Shpora
-1527;Skala;ATC;Skala
-1528;Torba;ATC;Torba
-1529;Vetka;ATC;Vetka
-1530;Yunga;ATC;Yunga
-1531;Carrier;ATC;Carrier Operations
-1532;Nearest Carrier;ATC;Carrier Operations
-1533;Admiral Kuznetsov;ATC;CV 1143.5 Admiral Kuznetsov
-1534;Carl Vinson;ATC;CVN-70 Carl Vinson
-1535;Tarawa;ATC;LHA-1 Tarawa
-1536;Perry;ATC;FFG-7CL Oliver Hazzard Perry
-1537;Normandy;ATC;CG-60 Normandy
-1538;CV-59 Forrestal;ATC;CV-59 Forrestal
-1539;Roosevelt;ATC;CVN-71 Theodore Roosevelt
-1540;Rough Rider;ATC;CVN-71 Theodore Roosevelt
-1541;Lincoln;ATC;CVN-72 Abraham Lincoln
-1542;Union;ATC;CVN-72 Abraham Lincoln
-1543;Washington;ATC;CVN-73 George Washington
-1544;Warfighter;ATC;CVN-73 George Washington
-1545;Stennis;ATC;CVN-74 John C. Stennis
-1546;Courage;ATC;CVN-74 John C. Stennis
-1547;Truman;ATC;CVN-75 Harry S. Truman
-1548;Lone Warrior;ATC;CVN-75 Harry S. Truman
-1549;Cats;ATC;Carrier Operations
-1550;Marshal;ATC;Carrier Operations
-1551;Approach;ATC;Carrier Operations
-1552;LSO;ATC;Carrier Operations
-1553;Paddles;ATC;Carrier Operations
-1554;Awacs;AWACS;AWACS
-1555;Darkstar;AWACS;Darkstar
-1556;Focus;AWACS;Focus
-1557;Magic;AWACS;Magic
-1558;Overlord;AWACS;Overlord
-1559;Wizard;AWACS;Wizard
-1560;Nearest AWACS;AWACS;Nearest AWACS
-1561;Tanker;Tanker;Tanker
-1562;Texaco;Tanker;Texaco
-1563;Shell;Tanker;Shell
-1564;Arco;Tanker;Arco
-1565;Nearest Tanker;Tanker;Nearest Tanker
-1566;Crew;Crew;Ground Crew
-1567;Chief;Crew;Ground Crew
-1568;Sarge;Crew;Ground Crew
-1569;Crystal Palace;AOCS;AOCS
-1570;Server;Aux;F10 Menu
-1571;Mystery;Aux;F10 Menu
-1572;Mission;Aux;F10 Menu
-1573;Cargo;Cargo;Cargo
-1574;Descent;Descent;Descent
-1575;Kneeboard;Kneeboard;Kneeboard
-1576;RIO;RIO;F-14 AI RIO
-1577;Jester;RIO;F-14 AI RIO
-1578;Ice;RIO;F-14 AI Pilot
-1579;deux;Flight;Wingman 2
-1580;A tous;Flight;Flight
-1581;equipe au sol;Crew;Ground Crew
-1582;Trois;Flight;Wingman 3
-1583;chef;Crew;Ground Crew
-1584;Jestere;RIO;F-14 AI RIO
-1585;tour de controle;ATC;Air Traffic Controller
-1586;Téxaco;Tanker;Texaco
-1587;Nounou;Tanker;Tanker
-1588;Quatre;Flight;Wingman 4
-1589;Vol;Flight;Flight
-1590;trois;Flight;Wingman 3
-1591;quatre;Flight;Wingman 4
-1592;chef avia;Crew;Ground Crew
-1593;AVIA;ATC;Air Traffic Controller
-1594;rouzvelte;ATC;CVN-71 Theodore Roosevelt
-1595;planchette;Kneeboard;Kneeboard
-1596;Batoumi;ATC;Batumi
-1597;Lideur;Flight;Wingman 1
-1598;Oveurlord;AWACS;Overlord
-1599;Descendez;Descent;Descent
-1600;Deux;Flight;Wingman 2
-1601;Al Dhafra AB;ATC;Al Dhafra AB
-1602;Tchéstere;RIO;F-14 AI RIO
-1603;Goose;RIO;F-14 AI RIO
-1604;Gouse;RIO;F-14 AI RIO
-1605;Couzz;RIO;F-14 AI RIO
-1606;Gouz;RIO;F-14 AI RIO
-1607;terrain le plus proche;ATC;Nearest Airfield
+1332;Flight;Flight;Flight
+1333;Element;Flight;Element
+1334;Section;Flight;Element
+1335;One;Flight;Wingman 1
+1336;Lead;Flight;Wingman 1
+1337;Winger;Flight;Wingman 2
+1338;Two;Flight;Wingman 2
+1339;Three;Flight;Wingman 3
+1340;Four;Flight;Wingman 4
+1341;Gopher;Flight;Wingman 2
+1342;Pyro;Flight;Wingman 3
+1343;Bozo;Flight;Wingman 4
+1344;JTAC;JTAC;JTAC
+1345;Patrol;JTAC;JTAC
+1346;Operator;JTAC;JTAC
+1347;Axeman;JTAC;Axeman
+1348;Darknight;JTAC;Darknight
+1349;Eyeball;JTAC;Eyeball
+1350;Finger;JTAC;Finger
+1351;Firefly;JTAC;Firefly
+1352;Moonbeam;JTAC;Moonbeam
+1353;Playboy;JTAC;Playboy
+1354;Pointer;JTAC;Pointer
+1355;Warrior;JTAC;Warrior
+1356;Whiplash;JTAC;Whiplash
+1357;Pinpoint;JTAC;Pinpoint
+1358;Ferret;JTAC;Ferret
+1359;Shaba;JTAC;Shaba
+1360;Hammer;JTAC;Hammer
+1361;Jaguar;JTAC;Jaguar
+1362;Deathstar;JTAC;Deathstar
+1363;Anvil;JTAC;Anvil
+1364;Mantis;JTAC;Mantis
+1365;Badger;JTAC;Badger
+1366;Boar;JTAC;Boar
+1367;Chevy;JTAC;Chevy
+1368;Colt;JTAC;Colt
+1369;Dodge;JTAC;Dodge
+1370;Enfield;JTAC;Enfield
+1371;Ford;JTAC;Ford
+1372;Hawg;JTAC;Hawg
+1373;Pig;JTAC;Pig
+1374;Pontiac;JTAC;Pontiac
+1375;Springfield;JTAC;Springfield
+1376;Tusk;JTAC;Tusk
+1377;Uzi;JTAC;Uzi
+1378;Nearest Patrol;JTAC;Nearest JTAC
+1379;ATC;ATC;Air Traffic Controller
+1380;Tower;ATC;Air Traffic Controller
+1381;Traffic;ATC;Air Traffic Controller
+1382;Nearest ATC;ATC;Nearest Airfield
+1383;Nearest Airfield;ATC;Nearest Airfield
+1384;Proxy;ATC;Nearest Airfield
+1385;Anapa;ATC;Anapa-Vityazevo
+1386;Batumi;ATC;Batumi
+1387;Beslan;ATC;Beslan
+1388;Gelendzhik;ATC;Gelendzhik
+1389;Gudauta;ATC;Gudauta
+1390;Khanskaya;ATC;Maykop-Khanskaya
+1391;Kobuleti;ATC;Kobuleti
+1392;Kolkhi;ATC;Senaki-Kolkhi
+1393;Senaki;ATC;Senaki-Kolkhi
+1394;Krasnodar;ATC;Krasnodar-Center
+1395;Krymsk;ATC;Krymsk
+1396;Kutaisi;ATC;Kutaisi
+1397;Lochini;ATC;Tbilisi-Lochini
+1398;Tbilisi;ATC;Tbilisi-Lochini
+1399;Minvody;ATC;Mineralnye Vody
+1400;Mozdok;ATC;Mozdok
+1401;Nalchik;ATC;Nalchik
+1402;Novorossiysk;ATC;Novorossiysk
+1403;Pashkovsky;ATC;Krasnodar-Pashkovsky
+1404;Sochi;ATC;Sochi-Adler
+1405;Soganlug;ATC;Soganlug
+1406;Sukhumi;ATC;Sukhumi-Babushara
+1407;Vaziani;ATC;Vaziani
+1408;Creech;ATC;Creech AFB
+1409;Indian Springs;ATC;Creech AFB
+1410;North Las Vegas;ATC;North Las Vegas
+1411;Graceland;ATC;North Las Vegas
+1412;Henderson;ATC;Henderson Executive Airport
+1413;McCarran;ATC;McCarran International Airport
+1414;Las Vegas;ATC;McCarran International Airport
+1415;Laughlin;ATC;Laughlin Airport
+1416;Bullhead;ATC;Laughlin Airport
+1417;Tonopah;ATC;Tonopah Test Range Airfield
+1418;Silverbow;ATC;Tonopah Test Range Airfield
+1419;Groom Lake;ATC;Groom Lake AFB
+1420;Dreamland;ATC;Groom Lake AFB
+1421;Nellis;ATC;Nellis AFB
+1422;NellisControl;ATC;Nellis AFB
+1423;Beny;ATC;Beny-sur-Mer
+1424;Sainte Croix;ATC;Sainte-Croix-sur-Mer
+1425;Lantheuil;ATC;Lantheuil
+1426;Bazenville;ATC;Bazenville
+1427;Sommervieu;ATC;Sommervieu
+1428;Longues;ATC;Longues-sur-Mer
+1429;Molay;ATC;Le Molay
+1430;Saint Laurent;ATC;Sainte-Laurent-sur-Mer
+1431;Saint Pierre;ATC;Saint Pierre du Mont
+1432;Deux Jumeaux;ATC;Deux Jumeaux
+1433;Chippelle;ATC;Chippelle
+1434;Cricqueville;ATC;Cricqueville-en-Bessin
+1435;Cardonville;ATC;Cardonville
+1436;Brucheville;ATC;Brucheville
+1437;Meautis;ATC;Meautis
+1438;Azeville;ATC;Azeville
+1439;Cretteville;ATC;Cretteville
+1440;Picauville;ATC;Picauville
+1441;Biniville;ATC;Biniville
+1442;Lessay;ATC;Lessay
+1443;Maupertus;ATC;Maupertus
+1444;Evreux;ATC;Evreux
+1445;Forde;ATC;Forde
+1446;Tangmere;ATC;Tangmere
+1447;Funtington;ATC;Funtington
+1448;Chailey;ATC;Chailey
+1449;Needs Oar;ATC;Needs Oar Point
+1450;Al Maktoum;ATC;Al Maktoum Intl
+1451;Al Minhad;ATC;Al Minhad AFB
+1452;Dubai;ATC;Dubai Intl
+1453;Sharjah;ATC;Sharjah Intl
+1454;Abu Musa;ATC;Abu Musa Island Airport
+1455;Sirri;ATC;Sirri Island
+1456;Fujairah;ATC;Fujairah Intl
+1457;Bandar;ATC;Bandar Lengeh
+1458;Khasab;ATC;Khasab
+1459;Qeshm Island;ATC;Qeshm Island
+1460;Havadarya;ATC;Havadarya
+1461;Bandar Abbas;ATC;Bandar Abbas Intl
+1462;Lar Airbase;ATC;Lar Airbase
+1463;Kerman Airport;ATC;Kerman Airport
+1464;Shiraz Airport;ATC;Shiraz Intl Airport
+1465;Al Bateen;ATC;Al-Bateen Airport
+1466;Kish Island;ATC;Kish International Airport
+1467;Lavan Island;ATC;Lavan Island Airport
+1468;Al Ain Airport;ATC;Al Ain International Airport
+1469;Abu Dhabi;ATC;Abu Dhabi International
+1470;Sas Al Nakheel;ATC;Sas Al Nakheel Airport
+1471;Jiroft;ATC;Jiroft Airport
+1472;Liwa Airbase;ATC;Liwa Airbase
+1473;Ras Al Khaimah;ATC;Ras Al Khaimah
+1474;Dunkirk;ATC;Dunkirk Mardyck
+1475;Hawkinge;ATC;Hawkinge
+1476;Saint Omer;ATC;Saint Omer Longuenesse
+1477;Calonne;ATC;Merville Calonne
+1478;High Halden;ATC;High Halden
+1479;Detling;ATC;Detling
+1480;Drucat;ATC;Abbeville Drucat
+1481;Lympne;ATC;Lympne
+1482;Manston;ATC;Manston
+1483;Hariri;ATC;Beirut-Rafic Hariri
+1484;Riyaq;ATC;Rayak
+1485;Hamat;ATC;Wujah Al Hajar
+1486;Kiryat;ATC;Kiryat Shmona
+1487;Mezzeh;ATC;Mezzeh
+1488;Qabr as Sitt;ATC;Qabr as Sitt
+1489;Rene Mouawad;ATC;Rene Mouawad
+1490;Marj as Sultan;ATC;Marj as Sultan North
+1491;Der Salman;ATC;Marj as Sultan South
+1492;Marj Ruhayyil;ATC;Marj Ruhayyil
+1493;Dumayr;ATC;Al-Dumayr
+1494;Haifa;ATC;Haifa
+1495;An Nasiriyah;ATC;An Nasiriyah
+1496;Al Qusayr;ATC;Al Qusayr
+1497;Khalkhalah;ATC;Khalkhalah
+1498;Ramat David;ATC;Ramat David
+1499;Megiddo;ATC;Megiddo
+1500;Eyn Shemer;ATC;Eyn Shemer
+1501;Latakia;ATC;Bassel Al-Assad
+1502;Abu al-Duhur;ATC;Abu al-Duhur
+1503;Taftanaz;ATC;Taftanaz
+1504;Hatay;ATC;Hatay
+1505;Rasin;ATC;Kuweires
+1506;Minakh;ATC;Minakh
+1507;Jirah;ATC;Jirah
+1508;Adana;ATC;Adana Sakirpasa
+1509;Incirlik;ATC;Incirlik
+1510;Platform;ATC;Helipad
+1511;FARP;ATC;Helipad
+1512;Berlin;ATC;Berlin
+1513;Dallas;ATC;Dallas
+1514;Dublin;ATC;Dublin
+1515;London;ATC;London
+1516;Madrid;ATC;Madrid
+1517;Moscow;ATC;Moscow
+1518;Paris;ATC;Paris
+1519;Perth;ATC;Perth
+1520;Rome;ATC;Rome
+1521;Warsaw;ATC;Warsaw
+1522;Kaemka;ATC;Kaemka
+1523;Kalitka;ATC;Kalitka
+1524;Kapel;ATC;Kapel
+1525;Otkrytka;ATC;Otkrytka
+1526;Podkova;ATC;Podkova
+1527;Shpora;ATC;Shpora
+1528;Skala;ATC;Skala
+1529;Torba;ATC;Torba
+1530;Vetka;ATC;Vetka
+1531;Yunga;ATC;Yunga
+1532;Carrier;ATC;Carrier Operations
+1533;Nearest Carrier;ATC;Carrier Operations
+1534;Admiral Kuznetsov;ATC;CV 1143.5 Admiral Kuznetsov
+1535;Carl Vinson;ATC;CVN-70 Carl Vinson
+1536;Tarawa;ATC;LHA-1 Tarawa
+1537;Perry;ATC;FFG-7CL Oliver Hazzard Perry
+1538;Normandy;ATC;CG-60 Normandy
+1539;CV-59 Forrestal;ATC;CV-59 Forrestal
+1540;Roosevelt;ATC;CVN-71 Theodore Roosevelt
+1541;Rough Rider;ATC;CVN-71 Theodore Roosevelt
+1542;Lincoln;ATC;CVN-72 Abraham Lincoln
+1543;Union;ATC;CVN-72 Abraham Lincoln
+1544;Washington;ATC;CVN-73 George Washington
+1545;Warfighter;ATC;CVN-73 George Washington
+1546;Stennis;ATC;CVN-74 John C. Stennis
+1547;Courage;ATC;CVN-74 John C. Stennis
+1548;Truman;ATC;CVN-75 Harry S. Truman
+1549;Lone Warrior;ATC;CVN-75 Harry S. Truman
+1550;Cats;ATC;Carrier Operations
+1551;Marshal;ATC;Carrier Operations
+1552;Approach;ATC;Carrier Operations
+1553;LSO;ATC;Carrier Operations
+1554;Paddles;ATC;Carrier Operations
+1555;Awacs;AWACS;AWACS
+1556;Darkstar;AWACS;Darkstar
+1557;Focus;AWACS;Focus
+1558;Magic;AWACS;Magic
+1559;Overlord;AWACS;Overlord
+1560;Wizard;AWACS;Wizard
+1561;Nearest AWACS;AWACS;Nearest AWACS
+1562;Tanker;Tanker;Tanker
+1563;Texaco;Tanker;Texaco
+1564;Shell;Tanker;Shell
+1565;Arco;Tanker;Arco
+1566;Nearest Tanker;Tanker;Nearest Tanker
+1567;Crew;Crew;Ground Crew
+1568;Chief;Crew;Ground Crew
+1569;Sarge;Crew;Ground Crew
+1570;Crystal Palace;AOCS;AOCS
+1571;Server;Aux;F10 Menu
+1572;Mystery;Aux;F10 Menu
+1573;Mission;Aux;F10 Menu
+1574;Cargo;Cargo;Cargo
+1575;Descent;Descent;Descent
+1576;Kneeboard;Kneeboard;Kneeboard
+1577;RIO;RIO;F-14 AI RIO
+1578;Jester;RIO;F-14 AI RIO
+1579;Ice;RIO;F-14 AI Pilot
+1580;deux;Flight;Wingman 2
+1581;A tous;Flight;Flight
+1582;equipe au sol;Crew;Ground Crew
+1583;Trois;Flight;Wingman 3
+1584;chef;Crew;Ground Crew
+1585;Jestere;RIO;F-14 AI RIO
+1586;tour de controle;ATC;Air Traffic Controller
+1587;Téxaco;Tanker;Texaco
+1588;Nounou;Tanker;Tanker
+1589;Quatre;Flight;Wingman 4
+1590;Vol;Flight;Flight
+1591;trois;Flight;Wingman 3
+1592;quatre;Flight;Wingman 4
+1593;chef avia;Crew;Ground Crew
+1594;AVIA;ATC;Air Traffic Controller
+1595;rouzvelte;ATC;CVN-71 Theodore Roosevelt
+1596;planchette;Kneeboard;Kneeboard
+1597;Batoumi;ATC;Batumi
+1598;Lideur;Flight;Wingman 1
+1599;Oveurlord;AWACS;Overlord
+1600;Descendez;Descent;Descent
+1601;Deux;Flight;Wingman 2
+1602;Al Dhafra AB;ATC;Al Dhafra AB
+1603;Tchéstere;RIO;F-14 AI RIO
+1604;Goose;RIO;F-14 AI RIO
+1605;Gouse;RIO;F-14 AI RIO
+1606;Couzz;RIO;F-14 AI RIO
+1607;Gouz;RIO;F-14 AI RIO
+1608;terrain le plus proche;ATC;Nearest Airfield
 ;----;
 ;Imported ATCs;
-1608;DDG Arleigh Burke IIa;;DDG Arleigh Burke IIa
-1609;unknown;;DDG Arleigh Burke IIa
-1610;CG Ticonderoga;;CG Ticonderoga
-1611;Sir Abu Nuayr;;Sir Abu Nuayr
-1612;OMSN;;Sir Abu Nuayr
-1613;Al-Bateen;;Al-Bateen
-1614;OMAD;;Al-Bateen
-1615;Sas Al Nakheel;;Sas Al Nakheel
-1616;OMNK;;Sas Al Nakheel
-1617;Abu Dhabi Intl;;Abu Dhabi Intl
-1618;OMAA;;Abu Dhabi Intl
-1619;Pétrolier Seawise Giant;;Pétrolier Seawise Giant
-1620;Al Dhafra AFB;;Al Dhafra AFB
-1621;OMAM;;Al Dhafra AFB
-1622;Liwa AFB;;Liwa AFB
-1623;OMLW;;Liwa AFB
-1624;Ras Al Khaimah Intl;;Ras Al Khaimah Intl
-1625;OMRK;;Ras Al Khaimah Intl
-1626;Al Ain Intl;;Al Ain Intl
-1627;OMAL;;Al Ain Intl
-1628;FARP;;FARP
-1629;Al Dhafra;;Al Dhafra AFB
-1630;Londres;;FARP
-1631;Bandar-e-Jask;;Bandar-e-Jask
-1632;Jask;;Bandar-e-Jask
-1633;FFG Oliver Hazzard Perry;;FFG Oliver Hazzard Perry
-1634;Abu Musa Island;;Abu Musa Island
-1635;OIBA;;Abu Musa Island
-1636;Kish Intl;;Kish Intl
-1637;Kish;;Kish Intl
-1638;Lavan Island;;Lavan Island
-1639;LVA;;Lavan Island
-1640;Lar;;Lar
-1641;OISL;;Lar
-1642;Jiroft;;Jiroft
-1643;OIKJ;;Jiroft
-1644;Shiraz Intl;;Shiraz Intl
-1645;SHIRAZ;;Shiraz Intl
-1646;Kerman;;Kerman
-1647;KERMAN;;Kerman
+1609;DDG Arleigh Burke IIa;;DDG Arleigh Burke IIa
+1610;unknown;;DDG Arleigh Burke IIa
+1611;CG Ticonderoga;;CG Ticonderoga
+1612;Sir Abu Nuayr;;Sir Abu Nuayr
+1613;OMSN;;Sir Abu Nuayr
+1614;Al-Bateen;;Al-Bateen
+1615;OMAD;;Al-Bateen
+1616;Sas Al Nakheel;;Sas Al Nakheel
+1617;OMNK;;Sas Al Nakheel
+1618;Abu Dhabi Intl;;Abu Dhabi Intl
+1619;OMAA;;Abu Dhabi Intl
+1620;Pétrolier Seawise Giant;;Pétrolier Seawise Giant
+1621;Al Dhafra AFB;;Al Dhafra AFB
+1622;OMAM;;Al Dhafra AFB
+1623;Liwa AFB;;Liwa AFB
+1624;OMLW;;Liwa AFB
+1625;Ras Al Khaimah Intl;;Ras Al Khaimah Intl
+1626;OMRK;;Ras Al Khaimah Intl
+1627;Al Ain Intl;;Al Ain Intl
+1628;OMAL;;Al Ain Intl
+1629;FARP;;FARP
+1630;Al Dhafra;;Al Dhafra AFB
+1631;Londres;;FARP
+1632;Bandar-e-Jask;;Bandar-e-Jask
+1633;Jask;;Bandar-e-Jask
+1634;FFG Oliver Hazzard Perry;;FFG Oliver Hazzard Perry
+1635;Abu Musa Island;;Abu Musa Island
+1636;OIBA;;Abu Musa Island
+1637;Kish Intl;;Kish Intl
+1638;Kish;;Kish Intl
+1639;Lavan Island;;Lavan Island
+1640;LVA;;Lavan Island
+1641;Lar;;Lar
+1642;OISL;;Lar
+1643;Jiroft;;Jiroft
+1644;OIKJ;;Jiroft
+1645;Shiraz Intl;;Shiraz Intl
+1646;SHIRAZ;;Shiraz Intl
+1647;Kerman;;Kerman
+1648;KERMAN;;Kerman
 ;Imported F10 menu commands;
-1648;Action Hawk Site Disabled;;Action Hawk Site Disabled
+1649;Action Hawk Site Disabled;;Action Hawk Site Disabled
 ;Player Group Callsigns;
-1649;Boar;;Boar
-1650;Chevy;;Chevy
-1651;Colt;;Colt
-1652;Dodge;;Dodge
-1653;Enfield;;Enfield
-1654;Ford;;Ford
-1655;Hawg;;Hawg
-1656;Pig;;Pig
-1657;Pontiac;;Pontiac
-1658;Springfield;;Springfield
-1659;Tusk;;Tusk
-1660;Uzi;;Uzi
+1650;Boar;;Boar
+1651;Chevy;;Chevy
+1652;Colt;;Colt
+1653;Dodge;;Dodge
+1654;Enfield;;Enfield
+1655;Ford;;Ford
+1656;Hawg;;Hawg
+1657;Pig;;Pig
+1658;Pontiac;;Pontiac
+1659;Springfield;;Springfield
+1660;Tusk;;Tusk
+1661;Uzi;;Uzi
 ;----;
